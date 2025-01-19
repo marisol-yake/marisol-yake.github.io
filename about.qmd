@@ -1,5 +1,5 @@
 ---
-title: Explore and setup
+title: About Me
 ---
 
 With this tutorial, we have a working example website that we will explore together. We'll learn a few rules and look for patterns to get an understanding of what things to do to help you start customizing and making it your own. And you can continue to use this website as a reference after the tutorial, along with [Quarto](https://quarto.org) documentation.
@@ -34,7 +34,7 @@ Let's go to this website's GitHub repository (also called a "repo"), [**https://
 
 There is also a `_quarto.yml` file, which is the website's configuration file. It is essentially metadata for the website that includes the order that the pages/chapters will be in. This is where you update the organization of your website: which page comes before another. If we compare side-by-side, you'll see that the pages that appear on our website are listed there.
 
-![`_quarto.yml` and website side-by-side](images/quarto-yml-site-side-by-side3.png){alt="_quarto.yml and website side-by-side" fig-align="center"}
+![\_quarto.yml and website side-by-side](images/quarto-yml-site-side-by-side3.png){fig-align="center"}
 
 We'll learn more about how to interact with `_quarto.yml` in [Quarto Workflows](quarto-workflows/index.qmd).
 
@@ -124,7 +124,7 @@ Commit this to save your new `quarto-publish.yml` file. This is your GitHub Acti
 
 **Next, we'll create a new `gh-pages` branch**. Go back to the main view of your GitHub repository. On the far left from the green "Code" button, click the button that says "main". In the pull-down menu, type `gh-pages` - all lowercase, with a hyphen. Click the bold text that says "Create branch: gh-pages from main".
 
-Now click on the Settings tab in the top right of your repository. On the left sidebar, click Pages. At the top of Pages under "Source", select `gh-pages` root, and press Save (may already be saved by default). 
+Now click on the Settings tab in the top right of your repository. On the left sidebar, click Pages. At the top of Pages under "Source", select `gh-pages` root, and press Save (may already be saved by default).
 
 To view your published website, at your main repository page, on the right side, click the gear-icon, select 'Use your GitHub Pages website'.
 
@@ -136,13 +136,13 @@ To confirm that your website is published, go back to your main repository page.
 
 ![Our repo with orange dot indicating in-progress GitHub Action build](images/github-action-orange.png){fig-alt="Screenshot of repo with orange dot indicating in-progress GitHub Action build" fig-align="center" width="95%"}
 
-If you do not see this orange dot, you can re-run the GitHub Action (on the main repo page, click Actions > select the workflow you want to re-run > click the 'Re-run all jobs' button.
+If you do not see this orange dot, you can re-run the GitHub Action (on the main repo page, click Actions \> select the workflow you want to re-run \> click the 'Re-run all jobs' button.
 
 When your orange do becomes a green check, you can go inspect your published site at "https://username.github.io/your-repo). For example: <https://openscapes.github.io/quarto-website-tutorial>.
 
 ![Our repo with green check indicating successful GitHub Action build](images/github-action-green.png){fig-alt="Screenshot of repo with green check indicating successful GitHub Action build" fig-align="center" width="95%"}
 
-It can take some time for the site to deploy, so don't worry if you don't see it right away. 
+It can take some time for the site to deploy, so don't worry if you don't see it right away.
 
 ## Renaming your repo
 

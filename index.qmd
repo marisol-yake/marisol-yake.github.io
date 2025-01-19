@@ -1,15 +1,17 @@
 ---
-title: "Making shareable documents with Quarto"
-subtitle: "Create open-source tutorials, onboarding docs, and much more"
+title: "Snowball: A Public Collection, by Marisol Yake"
+subtitle: "Sharing lessons learned and local publicly-available resources."
 ---
 
 ## Welcome {#welcome}
 
 It's possible to create beautiful documentation to share online with [Quarto](https://quarto.org) that auto-updates with [GitHub](http://github.com). This is very new and incredibly cool. This tutorial is an example of a quarto website --- it is a really powerful way to create and share your work. You can communicate about science using the same reproducible workflow you and/or your colleagues use for analyses, whether or not you write code.
 
+## Why did I create this collection?
+
 Creating websites with Quarto can be done without knowing R, Python or HTML, CSS, etc, and that's where we'll start. However, Quarto integrates with these tools so you can make your websites as complex and beautiful as you like as you see examples and reuse and remix from others in the open community. This tutorial borrows heavily from a lot of great tutorials and resources you should check out too -- there are links throughout.
 
-## What is Quarto?
+## What is a collection?
 
 Quarto helps you have your ideas and your code in one place, and present it in a beautiful way.
 
@@ -17,7 +19,7 @@ Quarto helps you have your ideas and your code in one place, and present it in a
 
 The ability for Quarto to streamline collaboration has been so cool and important for our [NASA Openscapes](https://nasa-openscapes.github.io/) project. Quarto has been a common place for us to collaborate - across R and Python languages and coding expertise.
 
-## What is this tutorial?
+## What can I find here?
 
 This is a 1-hour tutorial that can be used to teach or as self-paced learning.
 
@@ -27,7 +29,7 @@ We'll start off from the browser so you don't need to install any additional sof
 
 [Quarto.org](https://quarto.org) is the go-to place for full documentation and more tutorials!
 
-## Example Quarto sites
+## Excellent Resource Pages
 
 A few Quarto websites from Openscapes - so far we have been using Quarto for documentation using Quarto and Markdown files and Jupyter Notebooks.
 

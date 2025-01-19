@@ -3,10 +3,10 @@ project:
   
 website: 
   page-navigation: true
-  title: "Making sharable documents with Quarto" 
-  site-url: "https://openscapes.github.io/quarto-website-tutorial" 
-  repo-url: https://github.com/openscapes/quarto-website-tutorial 
-  repo-actions: [edit, issue]
+  title: "Marisol Yake" 
+  site-url: "https://marisol-yake.github.io/" 
+  repo-url: https://github.com/marisol-yake/marisol-yake.github.io
+  repo-actions: [issue]
   
   page-footer:
     right: "Marisol built this website with ❤️ and [Quarto](https://quarto.org/)."
@@ -30,13 +30,22 @@ website:
     contents:
       - href: index.qmd
         text: Home
-      - explore.qmd
-      - section: quarto-workflows/index.qmd
+        
+      - about.qmd
+      
+      - section: blog-posts/index.qmd
         contents: 
-          - quarto-workflows/browser.md
-          - quarto-workflows/rstudio.qmd
-          - quarto-workflows/jupyter.md 
+          - blog-posts/test-post1.md
+          - blog-posts/test-post2.md
+          - blog-posts/test-post3.md
+
+      - section: public-resources/index.qmd
+        contents:
+          - public-resources/Aurora.qmd
+          - public-resources/Denver.qmd
+          
       - learning-more.qmd
+      
       - href: transition-from-rmarkdown.qmd
         text: Transition from Rmd
 

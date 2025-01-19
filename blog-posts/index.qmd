@@ -1,0 +1,9 @@
+---
+title: "Blog Posts"
+---
+
+# Latest Posts
+
+<!--# How should I display individual posts? -->
+
+<!--# What Quarto options exist for previewing posts? Is there a special Quarto block? -->
