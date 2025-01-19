@@ -1,35 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://openscapes.github.io/quarto-website-tutorial/quarto-workflows/index.html</loc>
-    <lastmod>2025-01-19T22:00:20.195Z</lastmod>
+    <loc>https://marisol-yake.github.io/blog-posts/test-post2.html</loc>
+    <lastmod>2025-01-19T22:42:48.955Z</lastmod>
   </url>
   <url>
-    <loc>https://openscapes.github.io/quarto-website-tutorial/quarto-workflows/rstudio.html</loc>
-    <lastmod>2025-01-19T22:00:20.195Z</lastmod>
+    <loc>https://marisol-yake.github.io/blog-posts/test-post3.html</loc>
+    <lastmod>2025-01-19T22:42:48.955Z</lastmod>
   </url>
   <url>
-    <loc>https://openscapes.github.io/quarto-website-tutorial/index.html</loc>
-    <lastmod>2025-01-19T22:00:20.165Z</lastmod>
+    <loc>https://marisol-yake.github.io/public-resources/Denver.html</loc>
+    <lastmod>2025-01-19T22:42:48.977Z</lastmod>
   </url>
   <url>
-    <loc>https://openscapes.github.io/quarto-website-tutorial/learning-more.html</loc>
-    <lastmod>2025-01-19T22:00:20.165Z</lastmod>
+    <loc>https://marisol-yake.github.io/public-resources/Aurora.html</loc>
+    <lastmod>2025-01-19T22:42:48.977Z</lastmod>
   </url>
   <url>
-    <loc>https://openscapes.github.io/quarto-website-tutorial/explore.html</loc>
-    <lastmod>2025-01-19T22:00:20.143Z</lastmod>
+    <loc>https://marisol-yake.github.io/quarto-workflows/browser.html</loc>
+    <lastmod>2025-01-19T22:42:48.977Z</lastmod>
   </url>
   <url>
-    <loc>https://openscapes.github.io/quarto-website-tutorial/transition-from-rmarkdown.html</loc>
-    <lastmod>2025-01-19T22:00:20.196Z</lastmod>
+    <loc>https://marisol-yake.github.io/quarto-workflows/jupyter.html</loc>
+    <lastmod>2025-01-19T22:42:49.007Z</lastmod>
   </url>
   <url>
-    <loc>https://openscapes.github.io/quarto-website-tutorial/quarto-workflows/jupyter.html</loc>
-    <lastmod>2025-01-19T22:00:20.195Z</lastmod>
+    <loc>https://marisol-yake.github.io/about.html</loc>
+    <lastmod>2025-01-19T22:42:48.955Z</lastmod>
   </url>
   <url>
-    <loc>https://openscapes.github.io/quarto-website-tutorial/quarto-workflows/browser.html</loc>
-    <lastmod>2025-01-19T22:00:20.166Z</lastmod>
+    <loc>https://marisol-yake.github.io/learning-more.html</loc>
+    <lastmod>2025-01-19T22:42:48.977Z</lastmod>
+  </url>
+  <url>
+    <loc>https://marisol-yake.github.io/transition-from-rmarkdown.html</loc>
+    <lastmod>2025-01-19T22:42:49.008Z</lastmod>
+  </url>
+  <url>
+    <loc>https://marisol-yake.github.io/index.html</loc>
+    <lastmod>2025-01-19T22:42:48.977Z</lastmod>
+  </url>
+  <url>
+    <loc>https://marisol-yake.github.io/quarto-workflows/rstudio.html</loc>
+    <lastmod>2025-01-19T22:42:49.007Z</lastmod>
+  </url>
+  <url>
+    <loc>https://marisol-yake.github.io/quarto-workflows/index.html</loc>
+    <lastmod>2025-01-19T22:42:49.007Z</lastmod>
+  </url>
+  <url>
+    <loc>https://marisol-yake.github.io/blog-posts/index.html</loc>
+    <lastmod>2025-01-19T22:42:48.955Z</lastmod>
+  </url>
+  <url>
+    <loc>https://marisol-yake.github.io/blog-posts/test-post1.html</loc>
+    <lastmod>2025-01-19T22:42:48.955Z</lastmod>
   </url>
 </urlset>
