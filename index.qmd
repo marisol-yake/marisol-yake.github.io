@@ -31,7 +31,7 @@ We'll start off from the browser so you don't need to install any additional sof
 
 ## Excellent Resource Pages
 
-A few Quarto websites from Openscapes - so far we have been using Quarto for documentation using Quarto and Markdown files and Jupyter Notebooks.
+**Linktr.ee**, **Carrd**, and other **websites** offering reliable publicly available based in the Denver Metro Area.
 
 -   [Champions Lessons Series](https://openscapes.github.io/series)
 -   [Openscapes Approach Guide](https://openscapes.github.io/approach-guide/)
@@ -39,9 +39,3 @@ A few Quarto websites from Openscapes - so far we have been using Quarto for doc
 -   [2021 NASA Cloud Hackathon](https://nasa-openscapes.github.io/2021-Cloud-Hackathon/)
 -   [Faylab Lab Manual](https://thefaylab.github.io/lab-manual/)
 -   [A Quarto tip a day](https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/), by Mine Çetinkaya-Rundel
-
-## About
-
-[Openscapes](https://openscapes.org) is about better science for future us. We help researchers reimagine data analysis, develop modern skills that are of immediate value to them, and cultivate collaborative and inclusive research teams as part of the broader global open movement.
-
-We're developing this tutorial to help folks with different levels of technical skills use [Quarto](https://quarto.org) for documentation and tutorial building. This tutorial was originally created for several different audiences: [NASA-Openscapes](https://nasa-openscapes.github.io) researcher support engineers using Python, communications directors at organizations promoting open science who do not identify as coders, and fisheries scientists curious about transitioning from RMarkdown. We're hoping it's useful to folks with backgrounds as wide as these; if you find it useful or have suggestions for improvement, please let us know by clicking "Edit this page" or "Report an issue" at the upper right side of any page.
