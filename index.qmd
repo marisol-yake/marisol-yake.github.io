@@ -5,7 +5,7 @@ subtitle: "Sharing lessons learned and local publicly-available resources."
 
 ## Welcome in! {#welcome}
 
-Welcome to the Snowball Public Collection. This website is a place to find **publicly available resources and information** from around the Denver Metro Area in Colorado. As of right now, the plan for this project is to gather local resources that **people need now** and gather them in one place that is easy to search through and nice to look at. For now, the Snowball project is homed alongside my personal and professional projects until it's large enough to stand on its own.
+Welcome to the Snowball Public Collection. This website is a place to find **publicly available resources and information** from around the Denver Metro Area in Colorado. As of right now, the plan for this project is to gather local resources that **people need now** and gather them in one place that is **easy to search through** and **nice to look at**. For now, the Snowball project is homed alongside my personal and professional projects until it's large enough to stand on its own.
 
 ## Why did I create this collection?
 
