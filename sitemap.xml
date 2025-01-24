@@ -1,59 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://marisol-yake.github.io/blog-posts/test-post2.html</loc>
-    <lastmod>2025-01-19T22:50:40.518Z</lastmod>
-  </url>
-  <url>
-    <loc>https://marisol-yake.github.io/blog-posts/test-post3.html</loc>
-    <lastmod>2025-01-19T22:50:40.518Z</lastmod>
+    <loc>https://marisol-yake.github.io/public-resources/Aurora.html</loc>
+    <lastmod>2025-01-24T19:59:25.329Z</lastmod>
   </url>
   <url>
     <loc>https://marisol-yake.github.io/public-resources/Denver.html</loc>
-    <lastmod>2025-01-19T22:50:40.541Z</lastmod>
-  </url>
-  <url>
-    <loc>https://marisol-yake.github.io/public-resources/Aurora.html</loc>
-    <lastmod>2025-01-19T22:50:40.541Z</lastmod>
+    <lastmod>2025-01-24T19:59:25.329Z</lastmod>
   </url>
   <url>
     <loc>https://marisol-yake.github.io/quarto-workflows/browser.html</loc>
-    <lastmod>2025-01-19T22:50:40.541Z</lastmod>
+    <lastmod>2025-01-24T19:59:25.329Z</lastmod>
   </url>
   <url>
     <loc>https://marisol-yake.github.io/quarto-workflows/jupyter.html</loc>
-    <lastmod>2025-01-19T22:50:40.571Z</lastmod>
-  </url>
-  <url>
-    <loc>https://marisol-yake.github.io/about.html</loc>
-    <lastmod>2025-01-19T22:50:40.518Z</lastmod>
-  </url>
-  <url>
-    <loc>https://marisol-yake.github.io/learning-more.html</loc>
-    <lastmod>2025-01-19T22:50:40.541Z</lastmod>
+    <lastmod>2025-01-24T19:59:25.359Z</lastmod>
   </url>
   <url>
     <loc>https://marisol-yake.github.io/transition-from-rmarkdown.html</loc>
-    <lastmod>2025-01-19T22:50:40.571Z</lastmod>
-  </url>
-  <url>
-    <loc>https://marisol-yake.github.io/index.html</loc>
-    <lastmod>2025-01-19T22:50:40.540Z</lastmod>
-  </url>
-  <url>
-    <loc>https://marisol-yake.github.io/quarto-workflows/rstudio.html</loc>
-    <lastmod>2025-01-19T22:50:40.571Z</lastmod>
-  </url>
-  <url>
-    <loc>https://marisol-yake.github.io/quarto-workflows/index.html</loc>
-    <lastmod>2025-01-19T22:50:40.570Z</lastmod>
+    <lastmod>2025-01-24T19:59:25.359Z</lastmod>
   </url>
   <url>
     <loc>https://marisol-yake.github.io/blog-posts/index.html</loc>
-    <lastmod>2025-01-19T22:50:40.518Z</lastmod>
+    <lastmod>2025-01-24T19:59:25.306Z</lastmod>
+  </url>
+  <url>
+    <loc>https://marisol-yake.github.io/blog-posts/test-post2.html</loc>
+    <lastmod>2025-01-24T19:59:25.306Z</lastmod>
+  </url>
+  <url>
+    <loc>https://marisol-yake.github.io/learning-more.html</loc>
+    <lastmod>2025-01-24T19:59:25.329Z</lastmod>
+  </url>
+  <url>
+    <loc>https://marisol-yake.github.io/about.html</loc>
+    <lastmod>2025-01-24T19:59:25.306Z</lastmod>
   </url>
   <url>
     <loc>https://marisol-yake.github.io/blog-posts/test-post1.html</loc>
-    <lastmod>2025-01-19T22:50:40.518Z</lastmod>
+    <lastmod>2025-01-24T19:59:25.306Z</lastmod>
+  </url>
+  <url>
+    <loc>https://marisol-yake.github.io/blog-posts/test-post3.html</loc>
+    <lastmod>2025-01-24T19:59:25.306Z</lastmod>
+  </url>
+  <url>
+    <loc>https://marisol-yake.github.io/index.html</loc>
+    <lastmod>2025-01-24T19:59:25.329Z</lastmod>
+  </url>
+  <url>
+    <loc>https://marisol-yake.github.io/support-this.html</loc>
+    <lastmod>2025-01-24T19:59:25.359Z</lastmod>
+  </url>
+  <url>
+    <loc>https://marisol-yake.github.io/quarto-workflows/rstudio.html</loc>
+    <lastmod>2025-01-24T19:59:25.359Z</lastmod>
+  </url>
+  <url>
+    <loc>https://marisol-yake.github.io/quarto-workflows/index.html</loc>
+    <lastmod>2025-01-24T19:59:25.359Z</lastmod>
   </url>
 </urlset>

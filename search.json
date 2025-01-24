@@ -1,19 +1,5 @@
 [
   {
-    "objectID": "blog-posts/test-post2.html",
-    "href": "blog-posts/test-post2.html",
-    "title": "Information Ecosystems of Museums in the US",
-    "section": "",
-    "text": "Testing Post 2"
-  },
-  {
-    "objectID": "blog-posts/test-post3.html",
-    "href": "blog-posts/test-post3.html",
-    "title": "Introducing an inspiring topic",
-    "section": "",
-    "text": "Testing Post 3"
-  },
-  {
     "objectID": "quarto-workflows/browser.html",
     "href": "quarto-workflows/browser.html",
     "title": "From the Browser",
@@ -105,11 +91,92 @@
     "text": "Troubleshooting\n\nMy changes don’t show up in preview\nMake sure you’ve saved your file! There might be a slight delay depending on your JupyterHub/Lab setup.\n\n\nQuarto render hangs / does not complete\nCheck the specific notebook, are there any `—` throughout to denote line breaks rather than yaml? They might be causing the issue; consider deleting those.\nAlso check how long the first raw cell is. Are there level-1 headers (#)? Try removing them."
   },
   {
+    "objectID": "transition-from-rmarkdown.html",
+    "href": "transition-from-rmarkdown.html",
+    "title": "Transition from RMarkdown",
+    "section": "",
+    "text": "You may already have workflows in RMarkdown and are interested in transitioning to Quarto. There’s no hurry to migrate to Quarto. Keep using Rmarkdown and when you’re ready the migration will be fine.\nHere are some notes as we migrate RMarkdown sites and books.\nTODO: translating R code chunks",
+    "crumbs": [
+      "Transition from Rmd"
+    ]
+  },
+  {
+    "objectID": "transition-from-rmarkdown.html#bookdown-to-quarto",
+    "href": "transition-from-rmarkdown.html#bookdown-to-quarto",
+    "title": "Transition from RMarkdown",
+    "section": "Bookdown to Quarto",
+    "text": "Bookdown to Quarto\nConverting a Bookdown book to Quarto is slightly more involved than converting a website. A book has chapters whose order must be defined, and likely has citations and cross-refs. Still, conversion is not that hard.\nWe got some practice converting from Bookdown to Quarto by helping Gavin Fay convert his lab’s fantastic onboarding documentation, the Faylab Lab Manual. Here’s the GitHub view before and after.\nOur best first reference material for this was Nick Tierney’s Notes on Changing from Rmarkdown/Bookdown to Quarto. Nick shares some scripts in that post to automate some changes. In our case, the book was small enough that we made all changes manually. Quarto documentation was indispensable.\n\nExperimenting in a low-risk environment\nWe forked a copy of the Faylab Lab manual to the Openscapes organization, and worked in a branch so we could make changes relatively risk-free. We could always fork a new copy of the original if we “broke” something. (Caution: the default when making a pull request from a fork is to push changes to the original upstream repo, not your fork and it does this without warning if you have write-access to that repo.) With local previews it’s easy to test / play with settings to see what they do. We tended to make a change, Preview, then compare the look and functionality of the book to the original. It was helpful to comment out some elements of the configuration file _output.yml after their counterparts had been added to the Quarto configuration file _quarto.yml, or to confirm they were no longer needed, before making the drastic move of deleting them.\n\n\nThe conversion\nHere are the main steps to convert the Faylab Lab manual from Bookdown to Quarto.\nCreate new empty file called _quarto.yml and add book metadata there. The screenshots below\nSet project type as book.\nMove metadata out of index.qmd and into _quarto.yml. Title, author, and publication date were in index.qmd with date set using date: \"Last updated:r Sys.Date()\". Now these are in _quarto.yml with date set using date: last-modified. Note that having R code would require you to adjust code chunk options in the Quarto style (#|). This tripped us up a bit; see GitHub Actions.\nMove chapters listing out of _bookdown.yml and into _quarto.yml.\nAdd page footer to _quarto.yml.\nHere’s what ours looked like when we finished the steps above (_quarto.yml).\n\n\n\n\n\n\n\n\n\n_quarto.yml contents\n\n\n\n\n\n\n\nFaylab Lab Manual\n\n\n\n\n\nChange insertion of images from html style to Quarto style. (Note Quarto calls them “figures”, not “images”.) The following snippet will insert the GitHub octocat logo in a page:\n![](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png){fig-align=\"left\" width=\"35px\"}\nChange all filename extensions .Rmd -&gt; .qmd (you could Preview after this change and see that the book looks the same). Note that Quarto works with .Rmd files just as well as it does .qmd, so this change is not urgent. In fact, if you have a lot of R code in your .Rmds (unlike the Faylab Lab Manual), there will be additional tinkering needed to make the code chunks happy.\n\n\nCitations\nThe Faylab Lab Manual cited two papers, presenting us with an opportunity to see how easy it is to add references to a Quarto book. Briefly, in the Visual Editor, Insert &gt; Citation &gt; DOI. Pasting the DOI or its full URL, we can insert the citation. This automatically creates a references.bib file and adds the full citations at the bottom of the chapter page (watch demo). In July 2022, we had to manually add a ## References heading, but this may not be necessary in future Quarto updates.\n\n\n\n\n\n\n\n\n\nInsert citation via its DOI using RStudio Visual Editor\n\n\n\n\n\n\n\n\n\n\nPublishing notes\nIf the book’s output is strictly html, there’s no need to specify output-dir in _quarto.yml. The output directory default is _book/, which is what we’d like. If we wanted other types of output like like PDF or EPUB, etc. those single file outputs are also written to the output-dir (Quarto docs).\nIf you currently have a docs/ folder, delete it.\nUpdate .gitignore to ignore _book/. At the same time, we have it ignore caches and a .quarto file:\n/.quarto/\n*_cache/\n_book/\nOnce all is settled, delete _output.yml.\nOnce the Openscapes fork was fully reviewed, we made a pull request from that to the main branch of the book’s repo. Once that was merged, we set up GitHub Actions to render the book. (TODO: instructions for GitHub Actions)\n\n\nGitHub Actions\nThis book was mostly prose and screenshots without any R code. This made the conversion from RMarkdown to Quarto likely more straightforward than if you also needed to adjust code chunk options in the quarto style (#|). Our initial GitHub Action to render the converted Faylab Lab Manual failed because we had a piece of R code - even though the code was commented out! This was resolved when we deleted the line.",
+    "crumbs": [
+      "Transition from Rmd"
+    ]
+  },
+  {
+    "objectID": "transition-from-rmarkdown.html#distill-to-quarto",
+    "href": "transition-from-rmarkdown.html#distill-to-quarto",
+    "title": "Transition from RMarkdown",
+    "section": "Distill to quarto",
+    "text": "Distill to quarto\nWe transitioned our events site from distill to quarto in May 2022 (github view before and after). We followed excellent notes and examples from Nick Tierney and Danielle Navarro.\nAfter we had changed all the files, the Build tab in the RStudio IDE still showed “Build website” rather then “Render Website” and “Preview Website”, and would error when we pushed them (because that button was expecting a distill site, not a quarto site). To fix this, we updated the .Rproj file. Clicking on the .Rproj file in the RStudio IDE will open a dialog box where you can click things you want (you can also open these in a text editor or from the GitHub website to see the actual text). To fix this situation with the Build tab: Project Options &gt; Build Tools &gt; Project Build Tools &gt; None.\nLooking at files /posts/_metadata.yml and _quarto.yml helps see where things are defined. For example, to make event post citations appear, we added citation: true to /posts/_metadata.yml and in _quarto.yml under the website key we set site-url: https://openscapes.github.io/events. We deleted footer.html used with distill because footer is now defined in quarto.yml.\n\nPublishing notes\n\nBackground: Our distill site had been set up to output to a docs folder, and had GitHub Settings &gt; Pages set to look there rather gh-pages branch. (Julie note: this was a new-to-me capability when we set up the events distill site in Spring 2021 so I had forgotten that was an option). We’ve inititally kept this same set-up for now with our events page in _quarto.yml: output-dir: docs. However, this is sub-optimal; better to not have to commit and push these files but to instead have a GitHub Action generate them upon a commit. So the following is what we did -\n\nDon’t specify output-dir in _quarto.yml. The output directory default is _site/, which is what we’d like.\nIf you currently have a docs/ folder (like we did as we were experimenting), delete it.\nUpdate .gitignore to ignore _site/. At the same time, we have it ignore caches and a .quarto file:\n/.quarto/\n*_cache/\n_site/\nPush these changes, merge into main.\nOn GitHub.com, in your repo, set up GitHub publishing\nFollow instructions from the explore and setup chapter.",
+    "crumbs": [
+      "Transition from Rmd"
+    ]
+  },
+  {
+    "objectID": "transition-from-rmarkdown.html#troubleshooting",
+    "href": "transition-from-rmarkdown.html#troubleshooting",
+    "title": "Transition from RMarkdown",
+    "section": "Troubleshooting",
+    "text": "Troubleshooting\n\nGitHub Action fails, says you need RMarkdown but you don’t have R code!\nAnd you changed all .Rmds to .qmds!\nYou likely have a few setup code chunks from RMarkdown, that look like this:\n{r setup, include=FALSE}\nknitr::opts_chunk$set(echo = FALSE)\nYou can find them by opening each of your files and having a look, or use GitHub’s search for the keyword knitr",
+    "crumbs": [
+      "Transition from Rmd"
+    ]
+  },
+  {
+    "objectID": "blog-posts/index.html",
+    "href": "blog-posts/index.html",
+    "title": "Blog Posts",
+    "section": "",
+    "text": "Latest Posts",
+    "crumbs": [
+      "Blog Posts"
+    ]
+  },
+  {
+    "objectID": "blog-posts/test-post2.html",
+    "href": "blog-posts/test-post2.html",
+    "title": "Information Ecosystems of Museums in the US",
+    "section": "",
+    "text": "Testing Post 2",
+    "crumbs": [
+      "Blog Posts",
+      "Information Ecosystems of Museums in the US"
+    ]
+  },
+  {
+    "objectID": "learning-more.html",
+    "href": "learning-more.html",
+    "title": "Learning more",
+    "section": "",
+    "text": "An excellent overview: Reproducible authoring with Quarto - Mine Çetinkaya-Rundel, Feb 2022 - slides, youtube\nA Quarto tip a day in June 2022, from Mine Çetinkaya-Rundel.\n\n\n\nOpenscapes Champions Lessons Series\nOpenscapes Approach Guide\n\nNASA Earthdata Cloud Cookbook\n\nSee many more examples at the quarto gallery!\n\n\n\nAre you making onboarding documentation? Check out The Fay Lab Manual (now in Quarto!) for inspiration on structure - you could also start there and make it your own.",
+    "crumbs": [
+      "Learning more"
+    ]
+  },
+  {
+    "objectID": "learning-more.html#learn-more",
+    "href": "learning-more.html#learn-more",
+    "title": "Learning more",
+    "section": "",
+    "text": "An excellent overview: Reproducible authoring with Quarto - Mine Çetinkaya-Rundel, Feb 2022 - slides, youtube\nA Quarto tip a day in June 2022, from Mine Çetinkaya-Rundel.\n\n\n\nOpenscapes Champions Lessons Series\nOpenscapes Approach Guide\n\nNASA Earthdata Cloud Cookbook\n\nSee many more examples at the quarto gallery!\n\n\n\nAre you making onboarding documentation? Check out The Fay Lab Manual (now in Quarto!) for inspiration on structure - you could also start there and make it your own.",
+    "crumbs": [
+      "Learning more"
+    ]
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About Me",
     "section": "",
-    "text": "With this tutorial, we have a working example website that we will explore together. We’ll learn a few rules and look for patterns to get an understanding of what things to do to help you start customizing and making it your own. And you can continue to use this website as a reference after the tutorial, along with Quarto documentation.\nWe’ll start our exploration online looking at the website architecture and GitHub repository. Then we’ll setup a copy for ourselves so that we can modify from a working example, which is a great way to learn something new. We’ll set it up so that any modifications (commits) will automatically be republished via GitHub Actions. Subsequent chapters will describe how to modify your repo using different tools (browser, RStudio, Jupyter).",
+    "text": "My name is Marisol Yake (she / they), I’m a member of the public that’s attended undergraduate studies in biology, finance, and information science. I have always wanted my work to make meaningful impacts in the lives of my neighbors wherever I’m living. My passion for learning has always been fueled by the principle that anything I’ve studied or learned should be something that can benefit others around me. People before profits in every instance.",
     "crumbs": [
       "About Me"
     ]
@@ -185,63 +252,25 @@
     ]
   },
   {
-    "objectID": "learning-more.html",
-    "href": "learning-more.html",
-    "title": "Learning more",
+    "objectID": "blog-posts/test-post1.html",
+    "href": "blog-posts/test-post1.html",
+    "title": "Exciting Open Dataset Facts",
     "section": "",
-    "text": "An excellent overview: Reproducible authoring with Quarto - Mine Çetinkaya-Rundel, Feb 2022 - slides, youtube\nA Quarto tip a day in June 2022, from Mine Çetinkaya-Rundel.\n\n\n\nOpenscapes Champions Lessons Series\nOpenscapes Approach Guide\n\nNASA Earthdata Cloud Cookbook\n\nSee many more examples at the quarto gallery!\n\n\n\nAre you making onboarding documentation? Check out The Fay Lab Manual (now in Quarto!) for inspiration on structure - you could also start there and make it your own.",
+    "text": "Testing Post 1",
     "crumbs": [
-      "Learning more"
+      "Blog Posts",
+      "Exciting Open Dataset Facts"
     ]
   },
   {
-    "objectID": "learning-more.html#learn-more",
-    "href": "learning-more.html#learn-more",
-    "title": "Learning more",
+    "objectID": "blog-posts/test-post3.html",
+    "href": "blog-posts/test-post3.html",
+    "title": "Introducing an inspiring topic",
     "section": "",
-    "text": "An excellent overview: Reproducible authoring with Quarto - Mine Çetinkaya-Rundel, Feb 2022 - slides, youtube\nA Quarto tip a day in June 2022, from Mine Çetinkaya-Rundel.\n\n\n\nOpenscapes Champions Lessons Series\nOpenscapes Approach Guide\n\nNASA Earthdata Cloud Cookbook\n\nSee many more examples at the quarto gallery!\n\n\n\nAre you making onboarding documentation? Check out The Fay Lab Manual (now in Quarto!) for inspiration on structure - you could also start there and make it your own.",
+    "text": "Testing Post 3",
     "crumbs": [
-      "Learning more"
-    ]
-  },
-  {
-    "objectID": "transition-from-rmarkdown.html",
-    "href": "transition-from-rmarkdown.html",
-    "title": "Transition from RMarkdown",
-    "section": "",
-    "text": "You may already have workflows in RMarkdown and are interested in transitioning to Quarto. There’s no hurry to migrate to Quarto. Keep using Rmarkdown and when you’re ready the migration will be fine.\nHere are some notes as we migrate RMarkdown sites and books.\nTODO: translating R code chunks",
-    "crumbs": [
-      "Transition from Rmd"
-    ]
-  },
-  {
-    "objectID": "transition-from-rmarkdown.html#bookdown-to-quarto",
-    "href": "transition-from-rmarkdown.html#bookdown-to-quarto",
-    "title": "Transition from RMarkdown",
-    "section": "Bookdown to Quarto",
-    "text": "Bookdown to Quarto\nConverting a Bookdown book to Quarto is slightly more involved than converting a website. A book has chapters whose order must be defined, and likely has citations and cross-refs. Still, conversion is not that hard.\nWe got some practice converting from Bookdown to Quarto by helping Gavin Fay convert his lab’s fantastic onboarding documentation, the Faylab Lab Manual. Here’s the GitHub view before and after.\nOur best first reference material for this was Nick Tierney’s Notes on Changing from Rmarkdown/Bookdown to Quarto. Nick shares some scripts in that post to automate some changes. In our case, the book was small enough that we made all changes manually. Quarto documentation was indispensable.\n\nExperimenting in a low-risk environment\nWe forked a copy of the Faylab Lab manual to the Openscapes organization, and worked in a branch so we could make changes relatively risk-free. We could always fork a new copy of the original if we “broke” something. (Caution: the default when making a pull request from a fork is to push changes to the original upstream repo, not your fork and it does this without warning if you have write-access to that repo.) With local previews it’s easy to test / play with settings to see what they do. We tended to make a change, Preview, then compare the look and functionality of the book to the original. It was helpful to comment out some elements of the configuration file _output.yml after their counterparts had been added to the Quarto configuration file _quarto.yml, or to confirm they were no longer needed, before making the drastic move of deleting them.\n\n\nThe conversion\nHere are the main steps to convert the Faylab Lab manual from Bookdown to Quarto.\nCreate new empty file called _quarto.yml and add book metadata there. The screenshots below\nSet project type as book.\nMove metadata out of index.qmd and into _quarto.yml. Title, author, and publication date were in index.qmd with date set using date: \"Last updated:r Sys.Date()\". Now these are in _quarto.yml with date set using date: last-modified. Note that having R code would require you to adjust code chunk options in the Quarto style (#|). This tripped us up a bit; see GitHub Actions.\nMove chapters listing out of _bookdown.yml and into _quarto.yml.\nAdd page footer to _quarto.yml.\nHere’s what ours looked like when we finished the steps above (_quarto.yml).\n\n\n\n\n\n\n\n\n\n_quarto.yml contents\n\n\n\n\n\n\n\nFaylab Lab Manual\n\n\n\n\n\nChange insertion of images from html style to Quarto style. (Note Quarto calls them “figures”, not “images”.) The following snippet will insert the GitHub octocat logo in a page:\n![](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png){fig-align=\"left\" width=\"35px\"}\nChange all filename extensions .Rmd -&gt; .qmd (you could Preview after this change and see that the book looks the same). Note that Quarto works with .Rmd files just as well as it does .qmd, so this change is not urgent. In fact, if you have a lot of R code in your .Rmds (unlike the Faylab Lab Manual), there will be additional tinkering needed to make the code chunks happy.\n\n\nCitations\nThe Faylab Lab Manual cited two papers, presenting us with an opportunity to see how easy it is to add references to a Quarto book. Briefly, in the Visual Editor, Insert &gt; Citation &gt; DOI. Pasting the DOI or its full URL, we can insert the citation. This automatically creates a references.bib file and adds the full citations at the bottom of the chapter page (watch demo). In July 2022, we had to manually add a ## References heading, but this may not be necessary in future Quarto updates.\n\n\n\n\n\n\n\n\n\nInsert citation via its DOI using RStudio Visual Editor\n\n\n\n\n\n\n\n\n\n\nPublishing notes\nIf the book’s output is strictly html, there’s no need to specify output-dir in _quarto.yml. The output directory default is _book/, which is what we’d like. If we wanted other types of output like like PDF or EPUB, etc. those single file outputs are also written to the output-dir (Quarto docs).\nIf you currently have a docs/ folder, delete it.\nUpdate .gitignore to ignore _book/. At the same time, we have it ignore caches and a .quarto file:\n/.quarto/\n*_cache/\n_book/\nOnce all is settled, delete _output.yml.\nOnce the Openscapes fork was fully reviewed, we made a pull request from that to the main branch of the book’s repo. Once that was merged, we set up GitHub Actions to render the book. (TODO: instructions for GitHub Actions)\n\n\nGitHub Actions\nThis book was mostly prose and screenshots without any R code. This made the conversion from RMarkdown to Quarto likely more straightforward than if you also needed to adjust code chunk options in the quarto style (#|). Our initial GitHub Action to render the converted Faylab Lab Manual failed because we had a piece of R code - even though the code was commented out! This was resolved when we deleted the line.",
-    "crumbs": [
-      "Transition from Rmd"
-    ]
-  },
-  {
-    "objectID": "transition-from-rmarkdown.html#distill-to-quarto",
-    "href": "transition-from-rmarkdown.html#distill-to-quarto",
-    "title": "Transition from RMarkdown",
-    "section": "Distill to quarto",
-    "text": "Distill to quarto\nWe transitioned our events site from distill to quarto in May 2022 (github view before and after). We followed excellent notes and examples from Nick Tierney and Danielle Navarro.\nAfter we had changed all the files, the Build tab in the RStudio IDE still showed “Build website” rather then “Render Website” and “Preview Website”, and would error when we pushed them (because that button was expecting a distill site, not a quarto site). To fix this, we updated the .Rproj file. Clicking on the .Rproj file in the RStudio IDE will open a dialog box where you can click things you want (you can also open these in a text editor or from the GitHub website to see the actual text). To fix this situation with the Build tab: Project Options &gt; Build Tools &gt; Project Build Tools &gt; None.\nLooking at files /posts/_metadata.yml and _quarto.yml helps see where things are defined. For example, to make event post citations appear, we added citation: true to /posts/_metadata.yml and in _quarto.yml under the website key we set site-url: https://openscapes.github.io/events. We deleted footer.html used with distill because footer is now defined in quarto.yml.\n\nPublishing notes\n\nBackground: Our distill site had been set up to output to a docs folder, and had GitHub Settings &gt; Pages set to look there rather gh-pages branch. (Julie note: this was a new-to-me capability when we set up the events distill site in Spring 2021 so I had forgotten that was an option). We’ve inititally kept this same set-up for now with our events page in _quarto.yml: output-dir: docs. However, this is sub-optimal; better to not have to commit and push these files but to instead have a GitHub Action generate them upon a commit. So the following is what we did -\n\nDon’t specify output-dir in _quarto.yml. The output directory default is _site/, which is what we’d like.\nIf you currently have a docs/ folder (like we did as we were experimenting), delete it.\nUpdate .gitignore to ignore _site/. At the same time, we have it ignore caches and a .quarto file:\n/.quarto/\n*_cache/\n_site/\nPush these changes, merge into main.\nOn GitHub.com, in your repo, set up GitHub publishing\nFollow instructions from the explore and setup chapter.",
-    "crumbs": [
-      "Transition from Rmd"
-    ]
-  },
-  {
-    "objectID": "transition-from-rmarkdown.html#troubleshooting",
-    "href": "transition-from-rmarkdown.html#troubleshooting",
-    "title": "Transition from RMarkdown",
-    "section": "Troubleshooting",
-    "text": "Troubleshooting\n\nGitHub Action fails, says you need RMarkdown but you don’t have R code!\nAnd you changed all .Rmds to .qmds!\nYou likely have a few setup code chunks from RMarkdown, that look like this:\n{r setup, include=FALSE}\nknitr::opts_chunk$set(echo = FALSE)\nYou can find them by opening each of your files and having a look, or use GitHub’s search for the keyword knitr",
-    "crumbs": [
-      "Transition from Rmd"
+      "Blog Posts",
+      "Introducing an inspiring topic"
     ]
   },
   {
@@ -249,7 +278,7 @@
     "href": "index.html",
     "title": "Snowball: A Public Collection, by Marisol Yake",
     "section": "",
-    "text": "It’s possible to create beautiful documentation to share online with Quarto that auto-updates with GitHub. This is very new and incredibly cool. This tutorial is an example of a quarto website — it is a really powerful way to create and share your work. You can communicate about science using the same reproducible workflow you and/or your colleagues use for analyses, whether or not you write code.",
+    "text": "Welcome to the Snowball Public Collection. This website is a place to find publicly available resources and information from around the Denver Metro Area in Colorado. As of right now, the plan for this project is to gather local resources that people need now and gather them in one place that is easy to search through and nice to look at. For now, the Snowball project is homed alongside my personal and professional projects until it’s large enough to stand on its own.",
     "crumbs": [
       "Home"
     ]
@@ -259,7 +288,7 @@
     "href": "index.html#welcome",
     "title": "Snowball: A Public Collection, by Marisol Yake",
     "section": "",
-    "text": "It’s possible to create beautiful documentation to share online with Quarto that auto-updates with GitHub. This is very new and incredibly cool. This tutorial is an example of a quarto website — it is a really powerful way to create and share your work. You can communicate about science using the same reproducible workflow you and/or your colleagues use for analyses, whether or not you write code.",
+    "text": "Welcome to the Snowball Public Collection. This website is a place to find publicly available resources and information from around the Denver Metro Area in Colorado. As of right now, the plan for this project is to gather local resources that people need now and gather them in one place that is easy to search through and nice to look at. For now, the Snowball project is homed alongside my personal and professional projects until it’s large enough to stand on its own.",
     "crumbs": [
       "Home"
     ]
@@ -269,7 +298,7 @@
     "href": "index.html#why-did-i-create-this-collection",
     "title": "Snowball: A Public Collection, by Marisol Yake",
     "section": "Why did I create this collection?",
-    "text": "Why did I create this collection?\nCreating websites with Quarto can be done without knowing R, Python or HTML, CSS, etc, and that’s where we’ll start. However, Quarto integrates with these tools so you can make your websites as complex and beautiful as you like as you see examples and reuse and remix from others in the open community. This tutorial borrows heavily from a lot of great tutorials and resources you should check out too – there are links throughout.",
+    "text": "Why did I create this collection?\nI live with CPTSD and ADHD, both of which have had profound impacts in my ability to find and maintain work for just over 7 years now. In that time, I have had to scour the internet many times for hidden-in-plain-sight resources, applying for support through long, tedious application forms just to get some temporary help. In my experience, it often feels impossible to manage both getting any institutional support while also living our lives in a stable way. This collection is one way that I see myself being able to help others find their way to the things they need even faster, so that we can spend more of our valuable time how we want instead of being buried in the process of search -&gt; gather -&gt; apply -&gt; repeat.\nThroughout my whole life I have been inspired by the work of public librarianship. Growing up, I experienced public libraries as one of the only safe places I had away from home. A space where anyone can set their bags down, learn, read, play, be warm, find help, meet new friends, start a business, use a computer, or practice a new language. The list could go on forever. I started this collection as an homage to the many crucial services that public libraries freely provide and to get involved in my community by aggregating resources that we need right now. If we want our cities to be better places, we have to be the ones to take the imperfect first steps.",
     "crumbs": [
       "Home"
     ]
@@ -289,7 +318,7 @@
     "href": "index.html#what-can-i-find-here",
     "title": "Snowball: A Public Collection, by Marisol Yake",
     "section": "What can I find here?",
-    "text": "What can I find here?\nThis is a 1-hour tutorial that can be used to teach or as self-paced learning.\nWe introduce Quarto by exploring this tutorial website, and practicing the basic Quarto workflow using different tools (GitHub browser, RStudio, and Jupyter) for editing your website.\nWe’ll start off from the browser so you don’t need to install any additional software, however this approach is very limited and you will soon outgrow its capabilities. If you don’t already have a workflow to edit files and sync to GitHub from your computer, I recommend RStudio. You don’t need to know R to use RStudio, and it has powerful editor features that make for happy workflows.\nQuarto.org is the go-to place for full documentation and more tutorials!",
+    "text": "What can I find here?\n\nResources and Support in Denver, Aurora, etc.\n\nFinancial Assistance Applications – Housing, Health, Energy, SNAP, FAFSA\nFinding Work – Workforce Centers, Craigslist Jobs, …\nFinding Housing – Housing Vouchers, Housing Search Assistance,\nPublic Transportation – …\n\nPeople Power // Organizing Efforts\n\nCommunity Support – Denver Metro Tenants Union (DMTU), Housekeys Action Network Denver (HAND), Denver-Aurora Community Action Committee (DACAC), …\nLabor Unions – Service Employees International United (SEIU), United Campus Workers (UCW), Workers United (WU), …\n\nDatasets from Publicly-Available Sources\n\nAggregated Datasets – Cleaned and Documented\nBrief Exploratory Analyses – Findings and Reflections on local situations\nFree for Community Member Use – Neighbors, collectives, researchers, analysts, reporters, …",
     "crumbs": [
       "Home"
     ]
@@ -299,7 +328,17 @@
     "href": "index.html#excellent-resource-pages",
     "title": "Snowball: A Public Collection, by Marisol Yake",
     "section": "Excellent Resource Pages",
-    "text": "Excellent Resource Pages\nLinktr.ee, Carrd, and other websites offering reliable publicly available based in the Denver Metro Area.\n\nChampions Lessons Series\nOpenscapes Approach Guide\nNASA Earthdata Cloud Cookbook\n2021 NASA Cloud Hackathon\nFaylab Lab Manual\nA Quarto tip a day, by Mine Çetinkaya-Rundel",
+    "text": "Excellent Resource Pages\nLinktr.ee, Carrd, and other websites offering reliable publicly available based around the Denver Metro Area.\n\nChampions Lessons Series\nOpenscapes Approach Guide\nNASA Earthdata Cloud Cookbook\n2021 NASA Cloud Hackathon\nFaylab Lab Manual\nA Quarto tip a day, by Mine Çetinkaya-Rundel",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#feedback-is-welcome",
+    "href": "index.html#feedback-is-welcome",
+    "title": "Snowball: A Public Collection, by Marisol Yake",
+    "section": "Feedback is Welcome!",
+    "text": "Feedback is Welcome!\nDid you feel that this collection is missing something? Do you like my work and wanna let me know? Think this website could be better? Please reach out and let me know!\nIf you found this resource helpful and have some spare change, please consider supporting this project via Ko-Fi, Patreon, or consider working with me on your next data analysis project.",
     "crumbs": [
       "Home"
     ]
@@ -394,22 +433,5 @@
     "title": "Quarto workflows",
     "section": "Install Quarto",
     "text": "Install Quarto\nhttps://quarto.org/docs/get-started/ describes how to install Quarto, which will depend on your operating system. We’ll walk through installation for each tool in the next chapters."
-  },
-  {
-    "objectID": "blog-posts/index.html",
-    "href": "blog-posts/index.html",
-    "title": "Blog Posts",
-    "section": "",
-    "text": "Latest Posts",
-    "crumbs": [
-      "Blog Posts"
-    ]
-  },
-  {
-    "objectID": "blog-posts/test-post1.html",
-    "href": "blog-posts/test-post1.html",
-    "title": "Exciting Open Dataset Facts",
-    "section": "",
-    "text": "Testing Post 1"
   }
 ]
