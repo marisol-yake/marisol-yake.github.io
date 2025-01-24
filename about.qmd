@@ -2,9 +2,7 @@
 title: About Me
 ---
 
-With this tutorial, we have a working example website that we will explore together. We'll learn a few rules and look for patterns to get an understanding of what things to do to help you start customizing and making it your own. And you can continue to use this website as a reference after the tutorial, along with [Quarto](https://quarto.org) documentation.
-
-We'll start our exploration online looking at the website architecture and GitHub repository. Then we'll setup a copy for ourselves so that we can modify from a working example, which is a great way to learn something new. We'll set it up so that any modifications (commits) will automatically be republished via GitHub Actions. Subsequent chapters will describe how to modify your repo using different tools (browser, RStudio, Jupyter).
+My name is **Marisol Yake** (she / they), I'm a member of the public that's attended undergraduate studies in biology, finance, and information science. I have always wanted my work to make meaningful impacts in the **lives of my neighbors** wherever I'm living. My passion for learning has always been fueled by the principle that anything I've studied or learned should be something that can benefit others around me. People before profits in every instance.
 
 ## Exploring online
 

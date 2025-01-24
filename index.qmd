@@ -3,13 +3,15 @@ title: "Snowball: A Public Collection, by Marisol Yake"
 subtitle: "Sharing lessons learned and local publicly-available resources."
 ---
 
-## Welcome {#welcome}
+## Welcome in! {#welcome}
 
-It's possible to create beautiful documentation to share online with [Quarto](https://quarto.org) that auto-updates with [GitHub](http://github.com). This is very new and incredibly cool. This tutorial is an example of a quarto website --- it is a really powerful way to create and share your work. You can communicate about science using the same reproducible workflow you and/or your colleagues use for analyses, whether or not you write code.
+Welcome to the Snowball Public Collection. This website is a place to find **publicly available resources and information** from around the Denver Metro Area in Colorado. As of right now, the plan for this project is to gather local resources that **people need now** and gather them in one place that is easy to search through and nice to look at. For now, the Snowball project is homed alongside my personal and professional projects until it's large enough to stand on its own.
 
 ## Why did I create this collection?
 
-Creating websites with Quarto can be done without knowing R, Python or HTML, CSS, etc, and that's where we'll start. However, Quarto integrates with these tools so you can make your websites as complex and beautiful as you like as you see examples and reuse and remix from others in the open community. This tutorial borrows heavily from a lot of great tutorials and resources you should check out too -- there are links throughout.
+I live with CPTSD and ADHD, both of which have had profound impacts in my ability to find and maintain work for just over 7 years now. In that time, I have had to scour the internet many times for **hidden-in-plain-sight resources**, applying for support through **long, tedious application forms** just to get some **temporary help**. In my experience, it often feels impossible to manage both getting any institutional support while also living our lives in a stable way. This collection is one way that I see myself being able to help others find their way to the **things they need** even faster, so that we can spend more of our valuable time how we want instead of being buried in the process of *search -\> gather -\> apply -\> repeat*.
+
+Throughout my whole life I have been inspired by the work of public librarianship. Growing up, I experienced public libraries as one of the only safe places I had away from home. A space where **anyone** can set their bags down, learn, read, play, be warm, find help, meet new friends, start a business, use a computer, or practice a new language. The list could go on forever. I started this collection as an homage to the **many crucial services** that public libraries freely provide and **to get involved** in my community by aggregating resources that **we need right now**. If we want our cities to be better places, we have to be the ones to take the imperfect first steps.
 
 ## What is a collection?
 
@@ -21,17 +23,35 @@ The ability for Quarto to streamline collaboration has been so cool and importan
 
 ## What can I find here?
 
-This is a 1-hour tutorial that can be used to teach or as self-paced learning.
+-   Resources and Support in [Denver](./public-resources/Denver.qmd "Snowball Resources in Denver, CO"), [Aurora](./public-resources/Aurora.qmd "Snowball Resources in Aurora, CO"), etc.
 
-We introduce Quarto by exploring this tutorial website, and practicing the basic Quarto workflow using different tools (GitHub browser, RStudio, and Jupyter) for editing your website.
+    -   Financial Assistance Applications -- Housing, Health, Energy, SNAP, FAFSA
 
-We'll start off from the browser so you don't need to install any additional software, however this approach is very limited and you will soon outgrow its capabilities. If you don't already have a workflow to edit files and sync to GitHub from your computer, I recommend RStudio. You don't need to know R to use RStudio, and it has powerful editor features that make for happy workflows.
+    -   Finding Work -- Workforce Centers, Craigslist Jobs, ...
 
-[Quarto.org](https://quarto.org) is the go-to place for full documentation and more tutorials!
+    -   Finding Housing -- Housing Vouchers, Housing Search Assistance,
+
+    -   Public Transportation -- ...
+
+-   People Power // Organizing Efforts
+
+    -   Community Support -- Denver Metro Tenants Union (DMTU), Housekeys Action Network Denver (HAND), Denver-Aurora Community Action Committee (DACAC), ...
+
+    -   Labor Unions -- Service Employees International United (SEIU), United Campus Workers (UCW), Workers United (WU), ...
+
+-   [Datasets](https://www.kaggle.com/snowballdenver "Snowball Datasets, hosted on Kaggle") from Publicly-Available Sources
+
+    -   Aggregated Datasets -- Cleaned and Documented
+
+    -   Brief Exploratory Analyses -- Findings and Reflections on local situations
+
+    -   Free for Community Member Use -- Neighbors, collectives, researchers, analysts, reporters, ...
+
+-   
 
 ## Excellent Resource Pages
 
-**Linktr.ee**, **Carrd**, and other **websites** offering reliable publicly available based in the Denver Metro Area.
+**Linktr.ee**, **Carrd**, and other **websites** offering reliable publicly available based around the Denver Metro Area.
 
 -   [Champions Lessons Series](https://openscapes.github.io/series)
 -   [Openscapes Approach Guide](https://openscapes.github.io/approach-guide/)
@@ -39,3 +59,9 @@ We'll start off from the browser so you don't need to install any additional sof
 -   [2021 NASA Cloud Hackathon](https://nasa-openscapes.github.io/2021-Cloud-Hackathon/)
 -   [Faylab Lab Manual](https://thefaylab.github.io/lab-manual/)
 -   [A Quarto tip a day](https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/), by Mine Çetinkaya-Rundel
+
+## Feedback is Welcome!
+
+Did you feel that this collection is missing something? Do you like my work and wanna let me know? Think this website could be better? Please reach out and let me know!
+
+If you found this resource helpful and have some spare change, please consider supporting this project via [Ko-Fi](https://ko-fi.com/snowballdenver "Support Snowball on Ko-Fi"), [Patreon](https://www.patreon.com/SnowballDenver "Support Snowball on Patreon"), or consider working with me on your next data analysis project.

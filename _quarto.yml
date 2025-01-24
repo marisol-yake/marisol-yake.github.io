@@ -30,24 +30,20 @@ website:
     contents:
       - href: index.qmd
         text: Home
-        
       - about.qmd
-      
       - section: blog-posts/index.qmd
-        contents: 
-          - blog-posts/test-post1.md
-          - blog-posts/test-post2.md
-          - blog-posts/test-post3.md
-
+        contents:
+          - blog-posts/test-post1.qmd
+          - blog-posts/test-post2.qmd
+          - blog-posts/test-post3.qmd
       - section: public-resources/index.qmd
         contents:
           - public-resources/Aurora.qmd
           - public-resources/Denver.qmd
-          
       - learning-more.qmd
-      
       - href: transition-from-rmarkdown.qmd
         text: Transition from Rmd
+      - support-this.qmd
 
 
 format:
