@@ -15,11 +15,11 @@ Throughout my whole life I have been inspired by the work of public librarianshi
 
 ## What is a collection?
 
-Quarto helps you have your ideas and your code in one place, and present it in a beautiful way.
+What do *libraries, museums, zoos*, *datasets, lists, newsletters, ...* all have in common? They're different types of collections.
 
 **Quarto unifies and extends the RMarkdown ecosystem** - it unifies by combining the functionality of R Markdown, bookdown, distill, xaringian, etc into a single consistent system. And it extends in several ways: all features are possible beyond R too, including Python and Javascript. It also has more "guardrails": accessibility and inclusion are centered in the design. Quarto is for people who love RMarkdown, and it's for people who have never used RMarkdown.
 
-The ability for Quarto to streamline collaboration has been so cool and important for our [NASA Openscapes](https://nasa-openscapes.github.io/) project. Quarto has been a common place for us to collaborate - across R and Python languages and coding expertise.
+For further reading on what a collection is from the perspective of an Library and Information Science researcher, please check out this [academic article written by Hur-Li Lee](https://tefkos.comminfo.rutgers.edu/Courses/Zadar/Readings/HurliLeeJASIS.pdf "Read more about "What is a Collection?"").
 
 ## What can I find here?
 
