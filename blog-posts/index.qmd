@@ -1,9 +1,14 @@
 ---
 title: "Blog Posts"
+listing:
+  contents:
+    - "./*.qmd"
+  sort:
+    - "date"
+    - "title desc"
+  table-striped: true
+  table-hover: true
+  categories: true
+  feed: true
 ---
 
-# Latest Posts
-
-<!--# How should I display individual posts? -->
-
-<!--# What Quarto options exist for previewing posts? Is there a special Quarto block? -->

@@ -33,7 +33,7 @@ website:
       - about.qmd
       - section: blog-posts/index.qmd
         contents:
-          - blog-posts/test-post1.qmd
+          - blog-posts/hello-world.qmd
           - blog-posts/test-post2.qmd
           - blog-posts/test-post3.qmd
       - section: public-resources/index.qmd
