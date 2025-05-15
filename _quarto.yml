@@ -1,7 +1,8 @@
 project: 
   type: website
   
-website: 
+website:
+  search: false
   page-navigation: true
   title: "Marisol Yake" 
   site-url: "https://marisol-yake.github.io/" 
@@ -25,25 +26,34 @@ website:
         text: "My LinkedIn Profile"         
 
     style: "docked"
-    search: true
     collapse-level: 1
     contents:
       - href: index.qmd
         text: Home
-      - about.qmd
-      - section: blog-posts/index.qmd
-        contents:
-          - blog-posts/hello-world.qmd
-          - blog-posts/test-post2.qmd
-          - blog-posts/test-post3.qmd
+
+      - href: about.qmd
+        text: About Me
+
+      - href: resume-cv.qmd
+        text: CV
+
+      - href: projects.qmd
+        text: Projects
+
+      - href: blog-posts/index.qmd
+        text: Blog
+
+      - href: glossary.qmd
+        text: Glossary
+
       - section: public-resources/index.qmd
+        text: Public Resources
         contents:
           - public-resources/Aurora.qmd
           - public-resources/Denver.qmd
-      - learning-more.qmd
-      - href: transition-from-rmarkdown.qmd
-        text: Transition from Rmd
-      - support-this.qmd
+
+      - href: support-this.qmd
+        text: Support My Work
 
 
 format:

@@ -1,13 +1,12 @@
 ---
 title: "Blog Posts"
 listing:
+  type: grid
   contents:
     - "./*.qmd"
   sort:
-    - "date"
+    - "modified desc"
     - "title desc"
-  table-striped: true
-  table-hover: true
   categories: true
   feed: true
 ---
