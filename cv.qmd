@@ -1,0 +1,136 @@
+---
+format: 
+  pdf:
+    pandoc_args: --filter=vitae
+name: Marisol
+surname: Yake
+position: "Data Analyst"
+address: "Denver, CO"
+github: marisol-yake
+linkedin: marisol-yake
+email: marisol.yake@outlook.com
+aboutme: ...
+docname: "curriculum vitae"
+
+output: 
+  vitae::moderncv:
+    latex_engine: xelatex
+    template: moderncv
+---
+
+```{r setup, include=FALSE}
+# ref: https://github.com/tallguyjenks/CV/blob/master/CV.Rmd
+knitr::opts_chunk$set(echo = FALSE,
+                      warning = FALSE,
+                      message = FALSE)
+
+require(xfun)
+
+packages <- c('vitae'     # The CV's LaTeX Template
+             ,'tibble'    # Data structure for tribbles
+             ,'magrittr'  # The Pipe %>%
+             ,'here'      # Relative File Paths
+             ,'readr'     # Data Loading
+             ,'glue'      # String Manipulation
+            )
+
+xfun::pkg_attach2(packages, message = FALSE)
+
+source(file = here("cv-data", "data.R"))
+```
+
+# Education
+
+```{r EDUCATION}
+
+education %>%
+  detailed_entries(
+    with = institution,
+    what = degree,
+    when = glue::glue("{start} -- {end}", .na = ""),
+    where = location
+  )
+
+```
+
+# Projects
+
+```{r PROJECTS}
+
+projects %>%
+  detailed_entries(
+    with = glue::glue("{project_name} -- {organization}", .na = ""),
+    what = accomplishment,
+    when = glue::glue("{start} -- {end}", .na = ""),
+    where = location
+  )
+
+```
+
+# Works
+
+```{r WORKS}
+
+# works %>%
+#   detailed_entries(
+#     with = area,
+#     what = accomplishment,
+#     why = detail,
+#     when = year,
+#     where = where
+#   )
+
+```
+
+# Skills
+
+```{r SKILLS}
+
+skills %>%
+  detailed_entries(
+    with = area,
+    what = skills
+  )
+
+```
+
+# Languages
+
+```{r LANGUAGES}
+
+langs %>%
+  detailed_entries(
+    with = language_name,
+    what = proficiency,
+    why = why
+  )
+
+```
+
+# Certifications
+
+```{r CERTIFICATIONS}
+
+certifications %>%
+  detailed_entries(
+    with = organization,
+    what = cert_name,
+    when = issued,
+    where = location
+  )
+
+```
+
+# Volunteering
+
+```{r VOLUNTEERING}
+
+volunteer %>%
+  detailed_entries(
+    with = organization,
+    what = position,
+    when = glue::glue("{start} -- {end}", .na = ""),
+    where = location
+  )
+
+```

@@ -1,69 +1,18 @@
 ---
-title: "Snowball: A Public Collection, by Marisol Yake"
-subtitle: "We all take our shoes off at the door, friend."
+title: "Marisol Yake"
+subtitle: "Plans, Projects, Posts, Positions, etc."
 ---
 
-## Welcome in! {#welcome}
+::::: {layout-ncol=2}
+::: column
+## What I'm currently doing
+:::
 
-Welcome to the Snowball Public Collection. This website is a place to find **publicly available resources and information** from around the Denver Metro Area in Colorado. As of right now, the plan for this project is to gather local resources that **people need now** and gather them in one place that is **easy to search through** and **nice to look at**. For now, the Snowball project is homed alongside my personal and professional projects until it's large enough to stand on its own.
+::: column
+## What I like doing
+:::
+:::::
 
-## Why did I create this collection?
 
-I live with CPTSD and ADHD, both of which have had profound impacts in my ability to find and maintain work for just over 7 years now. In that time, I have had to scour the internet many times for **hidden-in-plain-sight resources**, applying for support through **long, tedious application forms** just to get some **temporary help**. In my experience, it often feels impossible to manage both getting any institutional support while also living our lives in a stable way. This collection is one way that I see myself being able to help others find their way to the **things they need** even faster, so that we can spend more of our valuable time how we want instead of being buried in the process of *search -\> gather -\> apply -\> repeat*.
-
-Throughout my whole life I have been inspired by the work of public librarianship. Growing up, I experienced public libraries as one of the only safe places I had away from home. A space where **anyone** can set their bags down, learn, read, play, be warm, find help, meet new friends, start a business, use a computer, or practice a new language. The list could go on forever. I started this collection as an homage to the **many crucial services** that public libraries freely provide and **to get involved** in my community by aggregating resources that **we need right now**. If we want our cities to be better places, we have to be the ones to take the imperfect first steps.
-
-## What is a collection?
-
-What do *libraries, museums, zoos*, *datasets, lists, newsletters, filing cabinets, ...* all have in common? They're different types of collections.
-
-**Quarto unifies and extends the RMarkdown ecosystem** - it unifies by combining the functionality of R Markdown, bookdown, distill, xaringian, etc into a single consistent system. And it extends in several ways: all features are possible beyond R too, including Python and Javascript. It also has more "guardrails": accessibility and inclusion are centered in the design. Quarto is for people who love RMarkdown, and it's for people who have never used RMarkdown.
-
-For further reading on what a collection is from the perspective of an Library and Information Science researcher, please check out this [academic article written by Hur-Li Lee](https://tefkos.comminfo.rutgers.edu/Courses/Zadar/Readings/HurliLeeJASIS.pdf "Read more about "What is a Collection?"").
-
-## What can I find here?
-
--   Resources and Support in [Denver](./public-resources/Denver.qmd "Snowball Resources in Denver, CO"), [Aurora](./public-resources/Aurora.qmd "Snowball Resources in Aurora, CO"), ...
-
-    -   Financial Assistance Applications -- [FAFSA](https://studentaid.gov/h/apply-for-aid/fafsa "Homepage for Student Financial Aid (FAFSA)"), [Colorado PEAK](https://peak.my.site.com/peak/s/peak-landing-page?language=en_US "Home page for Colorado PEAK Application"): Housing, Healthcare, Energy, SNAP
-
-    -   Finding Work -- [Workforce Centers](https://cdle.colorado.gov/jobs-training/workforce-centers "Landing Page for Finding Free Job Assistance Services"), Craigslist Jobs, ...
-
-    -   Finding Housing -- [Housing Vouchers](https://doh.colorado.gov/housing-voucher-programs "Landing Page for Colorado Housing Voucher Programs"), [Housing Search Assistance](https://coloradohousingsearch.com/ "Free Affordable-Housing Search Services")
-
-    -   Public Transportation -- [Colorado PEAK](https://peak.my.site.com/peak/s/peak-landing-page?language=en_US "Landing Page for Colorado PEAK Application"): LiVE (discounted fares), ...
-
-    -   
-
--   People Power // Organizing Efforts
-
-    -   Community Support -- Denver Metro Tenants Union (DMTU), Housekeys Action Network Denver (HAND), Denver-Aurora Community Action Committee (DACAC), ...
-
-    -   Labor Unions -- Service Employees International United (SEIU), United Campus Workers (UCW), Workers United (WU), ...
-
--   [Datasets](https://www.kaggle.com/snowballdenver "Snowball Datasets, hosted on Kaggle") from Publicly-Available Sources
-
-    -   Aggregated Datasets -- Cleaned and Documented
-
-    -   Brief Exploratory Analyses -- Findings and Reflections on local situations
-
-    -   Free for Community Member Use -- Neighbors, collectives, researchers, analysts, reporters, ...
-
--   
-
-## Excellent Resource Pages
-
-**Linktr.ee**, **Carrd**, and other **websites** offering reliable publicly available based around the Denver Metro Area.
-
--   [Champions Lessons Series](https://openscapes.github.io/series)
--   [Openscapes Approach Guide](https://openscapes.github.io/approach-guide/)
--   [NASA Earthdata Cloud Cookbook](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/)
--   [2021 NASA Cloud Hackathon](https://nasa-openscapes.github.io/2021-Cloud-Hackathon/)
--   [Faylab Lab Manual](https://thefaylab.github.io/lab-manual/)
--   [A Quarto tip a day](https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/), by Mine Çetinkaya-Rundel
-
-## Feedback is Welcome!
-
-Did you feel that this collection is missing something? Do you like my work and wanna let me know? Think this website could be better? Please reach out and let me know!
-
-If you found this resource helpful and have some spare change, please consider supporting this project via [Ko-Fi](https://ko-fi.com/snowballdenver "Support Snowball on Ko-Fi"), [Patreon](https://www.patreon.com/SnowballDenver "Support Snowball on Patreon"), or consider working with me on your next data analysis project.
+## Let's Get in Touch!
+<!-- Contact form? -->

@@ -1,5 +1,0 @@
----
-title: "Introducing an inspiring topic"
----
-
-# Testing Post 3
