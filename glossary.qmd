@@ -1,0 +1,39 @@
+---
+title: "Glossary"
+format: 
+  html:
+    css: styles/styles.css
+
+website:
+  include-in-header:
+    - scripts/anki-export.js
+---
+
+Useful terms that I like to refer to often.
+
+<!-- Button for downloading all terms as anki-deck in CSV format
+```{=html}
+<button id="export-anki" class="button" style="align-items: center; font-size: 20px; color: #ffffff; background: #0AC44B; border-color: #ffffff;" type="button">
+  <svg width="30" height="30" viewBox="0 0 24 24" style="display:inline-block;vertical-align:text-top;margin-right:6px;">
+    <path fill="currentColor" d="M5,20H19V18H5M19,9H15V3H9V9H5L12,16L19,9Z"/>
+  </svg>Terms to Anki CSV
+</button>
+```
+
+\
+-->
+
+## First Category
+
+:::{.card}
+### Term Name
+<div class="tags">
+  <span class="tag">tag1</span>
+  <span class="tag">tag2</span>
+</div>
+
+Definition text here [^1].
+
+**Sources:** [Source - 1](https://example.com) [Source - 2](https://example.org)
+
+:::

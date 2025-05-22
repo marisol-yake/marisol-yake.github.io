@@ -1,0 +1,22 @@
+---
+title: "Resume + Curriculum Vitae"
+format: html
+---
+
+Download my Resume or CV here
+
+::: panel-tabset
+## Resume
+
+<embed src="marisol-yake-resume.pdf#view=FitH" style="height:175vh; width:100%;">
+
+## Curriculum Vitae
+
+<embed src="cv.pdf" style="height:173vh; width:100%;">
+
+<!-- Maybe have them rendered under different tabs -->
+
+<!-- [Button for downloading PDF of Resume] -->
+
+<!-- [Download my Curriculum Vitae here](./cv.qmd) -->
+:::

@@ -1,0 +1,73 @@
+project: 
+  type: website
+  
+website:
+  search: false
+  page-navigation: true
+  title: "Marisol Yake" 
+  site-url: "https://marisol-yake.github.io/" 
+  repo-url: https://github.com/marisol-yake/marisol-yake.github.io
+  repo-actions: [issue]
+  
+  page-footer:
+    right: "Marisol built this website with ❤️ and [Quarto](https://quarto.org/)."
+    left: "Forked from: &copy; CC-By Openscapes, 2024"
+    
+  sidebar:
+    logo: "images/openscapes_hex.png"
+    pinned: true
+    align: center
+    tools:
+      - icon: github
+        href: https://github.com/marisol-yake
+        text: "My Github Profile"
+      - icon: linkedin
+        href: https://www.linkedin.com/in/marisol-yake/
+        text: "My LinkedIn Profile"         
+
+    style: "docked"
+    collapse-level: 1
+    contents:
+      - href: index.qmd
+        text: Home
+
+      - href: about.qmd
+        text: About Me
+
+      - href: resume-cv.qmd
+        text: CV
+
+      - href: projects.qmd
+        text: Projects
+
+      - href: blog-posts/index.qmd
+        text: Blog
+
+      - href: glossary.qmd
+        text: Glossary
+
+      - section: public-resources/index.qmd
+        text: Public Resources
+        contents:
+          - public-resources/Aurora.qmd
+          - public-resources/Denver.qmd
+
+      - href: support-this.qmd
+        text: Support My Work
+
+
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    code-copy: true
+    code-overflow: wrap
+    toc: true
+
+
+filters:
+  - include-files.lua
+  - quarto
+
+  

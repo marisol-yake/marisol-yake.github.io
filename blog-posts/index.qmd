@@ -1,0 +1,13 @@
+---
+title: "Blog Posts"
+listing:
+  type: grid
+  contents:
+    - "./*.qmd"
+  sort:
+    - "modified desc"
+    - "title desc"
+  categories: true
+  feed: true
+---
+
