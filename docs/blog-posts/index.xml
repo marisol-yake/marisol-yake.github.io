@@ -10,7 +10,7 @@
 <atom:link href="https://marisol-yake.github.io/blog-posts/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.6.42</generator>
-<lastBuildDate>Thu, 22 May 2025 20:42:27 GMT</lastBuildDate>
+<lastBuildDate>Thu, 22 May 2025 20:53:49 GMT</lastBuildDate>
 <item>
   <title>Hello, World!</title>
   <dc:creator>Marisol Yake</dc:creator>
@@ -67,7 +67,7 @@
 
  ]]></description>
   <guid>https://marisol-yake.github.io/blog-posts/hello-world.html</guid>
-  <pubDate>Thu, 22 May 2025 20:42:27 GMT</pubDate>
+  <pubDate>Thu, 22 May 2025 20:53:49 GMT</pubDate>
 </item>
 </channel>
 </rss>

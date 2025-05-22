@@ -3,15 +3,14 @@ title: "Marisol Yake"
 subtitle: "Plans, Projects, Posts, Positions, etc."
 ---
 
-::::: {layout-ncol="2"}
-::: column
-## What I'm currently doing
-:::
+::: {layout-ncol="2"}
 
-::: column
+## What I'm currently doing
+
 ## What I like doing
+
+
 :::
-:::::
 
 ## Let's Get in Touch!
 

@@ -6,6 +6,7 @@ format: html
 Download my Resume or CV here
 
 ::: panel-tabset
+
 ## Resume
 
 <embed src="marisol-yake-resume.pdf#view=FitH" style="height:175vh; width:100%;">
@@ -19,4 +20,5 @@ Download my Resume or CV here
 <!-- [Button for downloading PDF of Resume] -->
 
 <!-- [Download my Curriculum Vitae here](./cv.qmd) -->
+
 :::
