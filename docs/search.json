@@ -34,7 +34,7 @@
     "href": "blog-posts/index.html",
     "title": "Blog Posts",
     "section": "",
-    "text": "Hello, World!\n\n\n\n\n\n\nMarisol Yake\n\n\n\n\n\n\n\n\nNo matching items",
+    "text": "page-layout: full\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nHello, World!\n\n\n2 min\n\n\n“A journey of a thousand miles begins with a single step” – Laozi, Tao Te Ching\n\n\n\nMay 7, 2025\n\n\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Blog"
     ]
@@ -274,17 +274,37 @@
     "text": "Troubleshooting\n\nGitHub Action fails, says you need RMarkdown but you don’t have R code!\nAnd you changed all .Rmds to .qmds!\nYou likely have a few setup code chunks from RMarkdown, that look like this:\n{r setup, include=FALSE}\nknitr::opts_chunk$set(echo = FALSE)\nYou can find them by opening each of your files and having a look, or use GitHub’s search for the keyword knitr"
   },
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Marisol Yake",
+    "section": "",
+    "text": "Marisol Yake is the Data Analyst for the Collections and Data Analysis (CADA) program at Mountain Museum Management, designing analytics software and reporting to help museum staff monitor their collections workflows lowering their overhead (staff and storage) costs.\nA senior-year undergraduate student in Information Science with prior coursework in Finance. While studying Information Science at CU Boulder, I was fortunate enough to have the opportunity to work alongside the caring folks in the Philanthropics Informatics Research Lab (PIRL) as a research assistant under the guidance of Dr. Amy Voida and direct mentorship of Dr. Shiva Darian, contributing to a research manuscript exploring how labor unions use data and information communication technologies (ICTs) through the lenses of Human-Computer Interactions (HCI) and Computer Supported Cooperative Work (CSCW).\nI always strive for my work to have tangible, lasting benefits for as many people in my local area as possible. My passion for learning has always been fueled by the idea that everything I’ve learned should be something that can go on to benefit others around me.\nPeople before profits every time.",
+    "crumbs": [
+      "About Me"
+    ]
+  },
+  {
     "objectID": "blog-posts/hello-world.html",
     "href": "blog-posts/hello-world.html",
     "title": "Hello, World!",
     "section": "",
-    "text": "In programming circles, there’s a long-standing tradition that when embarking on the journey to learn a new programming language one should start by writing a single script that outputs the text “Hello, World!” to the terminal, indicating that we have all the baseline development requirements set up in order to program. From here, the possibilities are endless. I find that clearing this bar is often easier than how I build it up in my head, and after I do clear it I am all the more self-confident for it.\nIn the spirit of this tradition, I am taking my first steps into blogging with this post.\nHello world and welcome to my blog! My name is Marisol Yake and I am an undergraduate Information Science student at CU Boulder and a Data Analyst by trade. I have a love for research and understanding the impacts of information and communication technologies (ICTs) on human well-being and autonomy. Most recently, I have found a spark for public policy and I am following this thread until it ends!\n[Researching with the PIRL lab]\n\n\n\n\n\nCreating an outlet for sharing what I care about and my thought process for applying to various topics.\nI want to practice academic humility and be receptive feedback, while also learning about topics from outside of my current wheelhouse.\nI have switched my undergraduate degree focus several times and it’s really helped me see a lot of connections between professional and scientific topics. I want to share what I find where folks can find it.\n\n\n\n\n\nThe science curious\nThe interdisciplinary\nThe …\n\n\n\n\n\nHow-Tos: Technical and Use-case Tutorials (Data Analysis and Visualization esp.)\nBook Reports: Brief write-ups about the author(s) and the text.\nChapter Review: Brief review and reflection on a selection of text.\nPublic Data Analytics: Exploring questions of public interest through publicly available data.\n\n\n\n\n\n\nAt least once a month."
+    "text": "draft: true\nIn programming circles, there’s a long-standing tradition that when embarking on the journey to learn a new programming language one should start by writing a single script that outputs the text “Hello, World!” to the terminal, indicating that we have all the baseline development requirements set up in order to program. From here, the possibilities are endless. I find that clearing this bar is often easier than how I build it up in my head, and after I do clear it I am all the more self-confident for it.\nIn the spirit of this tradition, I am taking my first steps into blogging with this post.\nHello world and welcome to my blog! My name is Marisol Yake and I am an undergraduate Information Science student at CU Boulder and a Data Analyst by trade. I have a love for research and understanding the impacts of information and communication technologies (ICTs) on human well-being and autonomy. Most recently, I have found a spark for public policy and I am following this thread until it ends!\n[Researching with the PIRL lab]"
   },
   {
     "objectID": "blog-posts/hello-world.html#intentions",
     "href": "blog-posts/hello-world.html#intentions",
     "title": "Hello, World!",
-    "section": "",
-    "text": "Creating an outlet for sharing what I care about and my thought process for applying to various topics.\nI want to practice academic humility and be receptive feedback, while also learning about topics from outside of my current wheelhouse.\nI have switched my undergraduate degree focus several times and it’s really helped me see a lot of connections between professional and scientific topics. I want to share what I find where folks can find it.\n\n\n\n\n\nThe science curious\nThe interdisciplinary\nThe …\n\n\n\n\n\nHow-Tos: Technical and Use-case Tutorials (Data Analysis and Visualization esp.)\nBook Reports: Brief write-ups about the author(s) and the text.\nChapter Review: Brief review and reflection on a selection of text.\nPublic Data Analytics: Exploring questions of public interest through publicly available data.\n\n\n\n\n\n\nAt least once a month."
+    "section": "Intentions",
+    "text": "Intentions\n\nWhy am I making this blog?\n\nCreating an outlet for sharing what I care about and my thought process for applying to various topics.\nI want to practice academic humility and be receptive feedback, while also learning about topics from outside of my current wheelhouse.\nI have switched my undergraduate degree focus several times and it’s really helped me see a lot of connections between professional and scientific topics. I want to share what I find where folks can find it.\n\n\n\nWho is this blog for?\n\nThe science curious\nThe interdisciplinary\nThe …\n\n\n\nWhat will I be posting?\n\nHow-Tos: Technical and Use-case Tutorials (Data Analysis and Visualization esp.)\nBook Reports: Brief write-ups about the author(s) and the text.\nChapter Review: Brief review and reflection on a selection of text.\nPublic Data Analytics: Exploring questions of public interest through publicly available data.\n\n\n\n\nHow often do I intend to post?\n\nAt least once a month."
+  },
+  {
+    "objectID": "projects.html#past-projects",
+    "href": "projects.html#past-projects",
+    "title": "Projects",
+    "section": "Past Projects",
+    "text": "Past Projects",
+    "crumbs": [
+      "Projects"
+    ]
   }
 ]

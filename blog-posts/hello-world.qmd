@@ -1,11 +1,21 @@
 ---
 title: "Hello, World!"
 author: "Marisol Yake"
-created: 2025-05-07
-modified: 2025-05-14
+date: "2025-05-07"
+description: "\"A journey of a thousand miles begins with a single step\" -- Laozi, *Tao Te Ching*"
+title-block-banner-color: "#ffffff"
+include-in-header:
+  - text: |
+      <style>
+      .quarto-page-breadcrumbs .breadcrumb-item+.breadcrumb-item, .quarto-page-breadcrumbs .breadcrumb-item {
+        color: #ffffff;
+      }
+      </style>
+draft: true
 ---
 
-# Hello, World!
+![Photo by <a href="https://unsplash.com/@zgraves?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Zach Graves</a> on <a href="https://unsplash.com/photos/a-screen-shot-of-a-computer-wtpTL_SzmhM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>](../images/zach-graves-wtpTL_SzmhM-unsplash.jpg)
+
 In programming circles, there's a long-standing tradition that when embarking on the journey to learn a new programming language one should start by writing a single script that outputs the text "Hello, World!" to the terminal, indicating that we have all the baseline development requirements set up in order to program. From here, the possibilities are endless. I find that clearing this bar is often easier than how I build it up in my head, and after I do clear it I am all the more self-confident for it.
 
 In the spirit of this tradition, I am taking my first steps into blogging with this post.

@@ -10,7 +10,7 @@
 <atom:link href="https://marisol-yake.github.io/blog-posts/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.6.42</generator>
-<lastBuildDate>Thu, 22 May 2025 20:53:49 GMT</lastBuildDate>
+<lastBuildDate>Wed, 07 May 2025 06:00:00 GMT</lastBuildDate>
 <item>
   <title>Hello, World!</title>
   <dc:creator>Marisol Yake</dc:creator>
@@ -20,8 +20,14 @@
 
 
 
-<section id="hello-world" class="level1">
-<h1>Hello, World!</h1>
+
+<p>draft: true</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://marisol-yake.github.io/images/zach-graves-wtpTL_SzmhM-unsplash.jpg" class="img-fluid figure-img"></p>
+<figcaption>Photo by <a href="https://unsplash.com/@zgraves?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash">Zach Graves</a> on <a href="https://unsplash.com/photos/a-screen-shot-of-a-computer-wtpTL_SzmhM?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash">Unsplash</a></figcaption>
+</figure>
+</div>
 <p>In programming circles, there’s a long-standing tradition that when embarking on the journey to learn a new programming language one should start by writing a single script that outputs the text “Hello, World!” to the terminal, indicating that we have all the baseline development requirements set up in order to program. From here, the possibilities are endless. I find that clearing this bar is often easier than how I build it up in my head, and after I do clear it I am all the more self-confident for it.</p>
 <p>In the spirit of this tradition, I am taking my first steps into blogging with this post.</p>
 <p>Hello world and welcome to my blog! My name is Marisol Yake and I am an undergraduate Information Science student at CU Boulder and a Data Analyst by trade. I have a love for research and understanding the impacts of information and communication technologies (ICTs) on human well-being and autonomy. Most recently, I have found a spark for public policy and I am following this thread until it ends!</p>
@@ -63,11 +69,10 @@
 
 </section>
 </section>
-</section>
 
  ]]></description>
   <guid>https://marisol-yake.github.io/blog-posts/hello-world.html</guid>
-  <pubDate>Thu, 22 May 2025 20:53:49 GMT</pubDate>
+  <pubDate>Wed, 07 May 2025 06:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

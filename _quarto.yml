@@ -26,7 +26,7 @@ website:
         href: https://www.linkedin.com/in/marisol-yake/
         text: "My LinkedIn Profile"         
 
-    style: "docked"
+    style: "floating"
     collapse-level: 1
     contents:
       - href: index.qmd
@@ -65,6 +65,7 @@ format:
     code-copy: true
     code-overflow: wrap
     toc: true
+    page-layout: full
 
 
 filters:

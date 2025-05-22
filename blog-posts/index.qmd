@@ -4,10 +4,19 @@ listing:
   type: grid
   contents:
     - "./*.qmd"
+    - "./**/*.qmd"
   sort:
     - "modified desc"
     - "title desc"
   categories: true
   feed: true
+  sort-ui: true
+  filter-ui: true
+  image-placeholder: "../images/90259cd8-3584-4b9c-a3cf-8e20ad361ec8.jpg"
+  fields: [image, date, title, reading-time, categories, description]
+  table-hover: true
+  image-lazy-loading: true
+title-block-banner: false
 ---
 
+page-layout: full
