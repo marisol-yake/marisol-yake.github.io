@@ -17,6 +17,5 @@ listing:
   table-hover: true
   image-lazy-loading: true
 title-block-banner: false
----
-
 page-layout: full
+---

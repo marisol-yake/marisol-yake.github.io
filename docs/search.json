@@ -34,7 +34,7 @@
     "href": "blog-posts/index.html",
     "title": "Blog Posts",
     "section": "",
-    "text": "page-layout: full\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nHello, World!\n\n\n2 min\n\n\n“A journey of a thousand miles begins with a single step” – Laozi, Tao Te Ching\n\n\n\nMay 7, 2025\n\n\n\n\n\n\n\n\nNo matching items",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Blog"
     ]
@@ -44,7 +44,7 @@
     "href": "resume-cv.html",
     "title": "Resume + Curriculum Vitae",
     "section": "",
-    "text": "Download my Resume or CV here\n\nResumeCurriculum Vitae\n\n\n\n\n\n\n\n\n\n:::",
+    "text": "Download my Resume or CV here\n\nResumeCurriculum Vitae\n\n\n\n\n\n\n:::",
     "crumbs": [
       "CV"
     ]
@@ -284,20 +284,6 @@
     ]
   },
   {
-    "objectID": "blog-posts/hello-world.html",
-    "href": "blog-posts/hello-world.html",
-    "title": "Hello, World!",
-    "section": "",
-    "text": "draft: true\nIn programming circles, there’s a long-standing tradition that when embarking on the journey to learn a new programming language one should start by writing a single script that outputs the text “Hello, World!” to the terminal, indicating that we have all the baseline development requirements set up in order to program. From here, the possibilities are endless. I find that clearing this bar is often easier than how I build it up in my head, and after I do clear it I am all the more self-confident for it.\nIn the spirit of this tradition, I am taking my first steps into blogging with this post.\nHello world and welcome to my blog! My name is Marisol Yake and I am an undergraduate Information Science student at CU Boulder and a Data Analyst by trade. I have a love for research and understanding the impacts of information and communication technologies (ICTs) on human well-being and autonomy. Most recently, I have found a spark for public policy and I am following this thread until it ends!\n[Researching with the PIRL lab]"
-  },
-  {
-    "objectID": "blog-posts/hello-world.html#intentions",
-    "href": "blog-posts/hello-world.html#intentions",
-    "title": "Hello, World!",
-    "section": "Intentions",
-    "text": "Intentions\n\nWhy am I making this blog?\n\nCreating an outlet for sharing what I care about and my thought process for applying to various topics.\nI want to practice academic humility and be receptive feedback, while also learning about topics from outside of my current wheelhouse.\nI have switched my undergraduate degree focus several times and it’s really helped me see a lot of connections between professional and scientific topics. I want to share what I find where folks can find it.\n\n\n\nWho is this blog for?\n\nThe science curious\nThe interdisciplinary\nThe …\n\n\n\nWhat will I be posting?\n\nHow-Tos: Technical and Use-case Tutorials (Data Analysis and Visualization esp.)\nBook Reports: Brief write-ups about the author(s) and the text.\nChapter Review: Brief review and reflection on a selection of text.\nPublic Data Analytics: Exploring questions of public interest through publicly available data.\n\n\n\n\nHow often do I intend to post?\n\nAt least once a month."
-  },
-  {
     "objectID": "projects.html#past-projects",
     "href": "projects.html#past-projects",
     "title": "Projects",
@@ -305,6 +291,26 @@
     "text": "Past Projects",
     "crumbs": [
       "Projects"
+    ]
+  },
+  {
+    "objectID": "glossary.html",
+    "href": "glossary.html",
+    "title": "Glossary",
+    "section": "",
+    "text": "Useful terms that I like to refer to often.",
+    "crumbs": [
+      "Glossary"
+    ]
+  },
+  {
+    "objectID": "glossary.html#first-category",
+    "href": "glossary.html#first-category",
+    "title": "Glossary",
+    "section": "First Category",
+    "text": "First Category\n\nTerm Name\n\ntag1 tag2\n\nDefinition text here [^1].\nSources: Source - 1 Source - 2",
+    "crumbs": [
+      "Glossary"
     ]
   }
 ]

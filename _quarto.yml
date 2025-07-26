@@ -47,12 +47,6 @@ website:
       - href: glossary.qmd
         text: Glossary
 
-      - section: public-resources/index.qmd
-        text: Public Resources
-        contents:
-          - public-resources/Aurora.qmd
-          - public-resources/Denver.qmd
-
       - href: support-this.qmd
         text: Support My Work
 
