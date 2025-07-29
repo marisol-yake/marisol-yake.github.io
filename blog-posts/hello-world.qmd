@@ -18,9 +18,9 @@ draft: true
 
 In programming circles, there's a long-standing tradition that when embarking on the journey to learn a new programming language one should start by writing a single script that outputs the text "Hello, World!" to the terminal, indicating that we have all the baseline development requirements set up in order to program. From here, the possibilities are endless. I find that clearing this bar is often easier than how I build it up in my head, and after I do clear it I am all the more self-confident for it.
 
-In the spirit of this tradition, I am taking my first steps into blogging with this post.
+In the spirit of this tradition (and not continuing to second-guess myself), I am taking my first steps into sharing what I learn with this post.
 
-Hello world and welcome to my blog! My name is Marisol Yake and I am an undergraduate Information Science student at CU Boulder and a Data Analyst by trade. I have a love for research and understanding the impacts of information and communication technologies (ICTs) on human well-being and autonomy. Most recently, I have found a spark for public policy and I am following this thread until it ends! 
+Hello world and welcome to my blog! My name is Marisol Yake and I am an senior undergraduate Information Science student at CU Boulder and a Data Analyst by trade. I have a love for ethical research and understanding the impacts of information and communication technologies (ICTs) on human well-being and autonomy. Most recently, I have found a spark for public policy and I am following this thread until it ends! 
 
 [Researching with the PIRL lab]
 

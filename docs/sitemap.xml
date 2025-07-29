@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://marisol-yake.github.io/index.html</loc>
-    <lastmod>2025-05-22T21:02:40.545Z</lastmod>
+    <lastmod>2025-07-29T17:56:05.899Z</lastmod>
   </url>
   <url>
     <loc>https://marisol-yake.github.io/blog-posts/index.html</loc>
@@ -38,7 +38,7 @@
   </url>
   <url>
     <loc>https://marisol-yake.github.io/about.html</loc>
-    <lastmod>2025-05-22T23:46:11.568Z</lastmod>
+    <lastmod>2025-07-29T17:58:10.879Z</lastmod>
   </url>
   <url>
     <loc>https://marisol-yake.github.io/projects.html</loc>
@@ -51,5 +51,25 @@
   <url>
     <loc>https://marisol-yake.github.io/support-this.html</loc>
     <lastmod>2025-05-15T23:42:38.476Z</lastmod>
+  </url>
+  <url>
+    <loc>https://marisol-yake.github.io/projects/index.html</loc>
+    <lastmod>2025-07-29T19:34:21.165Z</lastmod>
+  </url>
+  <url>
+    <loc>https://marisol-yake.github.io/projects/CADA.html</loc>
+    <lastmod>2025-07-29T18:32:23.689Z</lastmod>
+  </url>
+  <url>
+    <loc>https://marisol-yake.github.io/projects/Power-in-Numbers.html</loc>
+    <lastmod>2025-07-29T18:24:16.940Z</lastmod>
+  </url>
+  <url>
+    <loc>https://marisol-yake.github.io/projects/PIRL/power-in-numbers/Power-in-Numbers.html</loc>
+    <lastmod>2025-07-29T19:24:20.410Z</lastmod>
+  </url>
+  <url>
+    <loc>https://marisol-yake.github.io/projects/MMM/CADA.html</loc>
+    <lastmod>2025-07-29T19:41:48.051Z</lastmod>
   </url>
 </urlset>

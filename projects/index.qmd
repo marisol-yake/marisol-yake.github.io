@@ -1,0 +1,17 @@
+---
+title: "Projects"
+format: html
+
+listing:
+  type: default
+  contents:
+    - "./*.qmd"
+    - "./**/*.qmd"
+    - "./**/**/*.qmd"
+  sort:
+    - "date desc"
+  table-hover: true
+  fields: [image, title, description]
+  image-lazy-loading: true
+  image-align: left
+---

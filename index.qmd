@@ -3,14 +3,20 @@ title: "Marisol Yake"
 subtitle: "Plans, Projects, Posts, Positions, etc."
 ---
 
-::: {layout-ncol="2"}
+<!--
 
-## What I'm currently doing
+Hook, professional intro
+- Data Analyst & Independent Researcher 
+- Passionate about finding ways that science & technology can reciprocally support well-being and autonomy, rather than facilitating and perpetuating extractive logics.
+- Currently working as a Data Analyst with MMM helping develop long-term analytics programs which aim to support museum's missions by fostering autonomy and ownership over their data and project outcomes.
 
-## What I like doing
+- Interested in HCI/CSCW, Data/Stats/ML, and Phil/Anth
+- Trying to trace lines between UX-Stats-Data-Ethics.
+- Data reflects a record, an observation, "what counts" (statistically and morally).
+- Want to unpack how data and its use is not uncontroversial, and how can people reclaim use of such a thing?
+- Always looking to learn more, I share on topics that I'm wading through over on my blog! [link to blog]
 
-
-:::
+-->
 
 ## Let's Get in Touch!
 

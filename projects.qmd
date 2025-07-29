@@ -1,8 +1,0 @@
----
-title: "Projects"
-format: html
----
-
-## On-Going Projects
-
-## Past Projects

@@ -1,0 +1,17 @@
+---
+title: "Power-in-Numbers"
+format: html
+date: 2022-05-22
+date-format: "MMMM YYYY"
+published-title: "Started"
+authors: 
+  - "Marisol Yake"
+  - "Amy Voida, PhD"
+  - "Shiva Darian, PhD"
+institute: "CU Boulder, Philanthropic Informatics Research Lab (PIRL)"
+description: "Exploring how Labor Unions use data and information & communication technologies (ICTs) to get wins."
+image: "./power-in-numbers-initial-presentation.png"
+image-alt: "Poster describing initial Power-In-Numbers paper findings."
+---
+
+## Brief Explanation of Power In Numbers

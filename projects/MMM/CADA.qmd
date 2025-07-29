@@ -1,0 +1,14 @@
+---
+title: "Collections & Data Analysis"
+format: html
+date: 2024-05-15
+date-format: "MMMM YYYY"
+published-title: "Started"
+author: ["Marisol Yake", "Samantha Hunt-Duran"]
+institute: "Mountain Museum Management"
+description: "Researching and applying ethical analytics interventions to museum data processes."
+image: "./CADA-banner.jpeg"
+image-alt: "Banner of the Collections and Data Analysis Program, a collaboration with Mountain Museum Management."
+---
+
+## Brief explanation of the CADA program

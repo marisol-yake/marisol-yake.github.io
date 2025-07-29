@@ -38,7 +38,7 @@ website:
       - href: resume-cv.qmd
         text: CV
 
-      - href: projects.qmd
+      - href: projects/index.qmd
         text: Projects
 
       - href: blog-posts/index.qmd

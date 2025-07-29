@@ -1,6 +1,15 @@
 [
   {
     "listing": "/blog-posts/index.html",
-    "items": []
+    "items": [
+      "/blog-posts/hello-world.html"
+    ]
+  },
+  {
+    "listing": "/projects/index.html",
+    "items": [
+      "/projects/MMM/CADA.html",
+      "/projects/PIRL/power-in-numbers/Power-in-Numbers.html"
+    ]
   }
 ]
