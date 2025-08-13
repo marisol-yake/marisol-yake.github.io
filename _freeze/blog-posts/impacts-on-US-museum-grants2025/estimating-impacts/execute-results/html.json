@@ -1,0 +1,12 @@
+{
+  "hash": "d5f2e4ebef66ee6f9c895d4057d6ddce",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"Estimating The Financial Impact Of NEH and IMLS Grants Cancellations for Colorado Museums\"\nformat: html\ndraft: true\n---\n\n\n\n[*Write a snappy intro, thanks*]\n\nIn this post, we will be using a data science technique to get a feel for the financial impacts of the politically-charged targeting of federal grants for public, cultural institutions. Specifically, we will be estimating the impacts of these grant cancellations on Colorado Museums.\n\n::: {#ff1db3dc .cell execution_count=1}\n``` {.python .cell-code}\n#import pandas as pd\n#import matplotlib.pyplot as plt\n#import seaborn as sns\n```\n:::\n\n\n::: {#65fb5ef4 .cell execution_count=2}\n``` {.python .cell-code}\n# Load IMLS Grants data, CO only\n# Load NEH Grants data, CO only\n```\n:::\n\n\n::: {#47768e79 .cell execution_count=3}\n``` {.python .cell-code}\n# How many records in IMLS grants?\n# How many records in NEH grants?\n\n# Proportions?\n```\n:::\n\n\n::: {#fd3170da .cell execution_count=4}\n``` {.python .cell-code}\n# Bootstrap IMLS Grants - How many canceled?\n\n# Bootstrap NEH Grants - How many canceled?\n\n# Combine datasets\n```\n:::\n\n\n::: {#c9add171 .cell execution_count=5}\n``` {.python .cell-code}\n# IMLS Grants Histogram + KDE, red vline [org] estimate\n# NEH Grants Histogram + KDE, red vline ach estimate\n# layout: (2, 1)\n\n# Overall Impact Data Set\n```\n:::\n\n\n## References\n- [the association for computers and the humanities (ach), NEH Grants 2025](https://impact.ach.org/)\n- \n\n",
+    "supporting": [
+      "estimating-impacts_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

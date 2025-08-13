@@ -3,20 +3,18 @@ title: "Marisol Yake"
 subtitle: "Data Analyst & Researcher"
 ---
 
-<img src="https://www.denverpost.com/wp-content/uploads/2025/02/TDP-L-HC1_9205.jpg?w=863" alt="A photo of Denver's ATU members advocating for better workplace conditions." style="width: 70%;"/>
-<p style="color: grey; font-size: 12px; margin-top: 2px;">Credit: Photo taken by the <a href="https://www.denverpost.com/2025/04/09/colorado-union-labor-peace-act-class-warfare-letters/">Denver Post</a></p>
+<img src="./ev-CPFdKHSiY8U-unsplash.jpg" alt="A photo of a protest sign that reads: 'Votre Lutte Est Notre Lutte!' (Your fight is Our fight!)" style="width: 70%;"/>
+<p style="color: grey; font-size: 12px; margin-top: 2px;">Photo by <a href="https://unsplash.com/@ev?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">ev</a> on <a href="https://unsplash.com/photos/votre-lutte-est-notre-lutte-poster-CPFdKHSiY8U?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></p>
 
-Welcome in! My name is Marisol (she / they) and my work is kin to a funky little pocket of science that is itself a collision of numerous fields of discipline: **Information Science**
+Welcome in! My name is Marisol (she / they) and I currently work as a Data Analyst and Museum-focused Data Educator. 
 
-To keep it brief, I care deeply about ensuring that implementations of technology or research **respect cultural and ethical boundaries**, and **that all of my practice reflects the values of reciprocity and autonomous engagement**, rather than fostering dependency.
+All of my work lives in a little pocket of science that is itself a collision of numerous fields of discipline: **Information Science**. It's where I get to to apply and share my experiences with UX Design, Human-Computer Interaction (HCI), Computer-Supported Cooperative Work (CSCW), Data Science, Programming, Philosophy, Anthropology, Sociology, History, and most recently Museum Collections.
+
+To put it briefly, I care deeply about **ensuring that implementations of technology or research respect cultural and ethical boundaries**, and **that all my practice** reflects the **values of reciprocity and autonomous engagement**.
 
 ----
 
-**Organizations work because people do!** When people come together to accomplish a common goal, there's very little that can't be done. If not for the ability to communicate and cooperate effectively, it would be difficult to imagine the state and scale of things today. It doesn't take any project too long before there's simply too much information to hold exclusively in our heads, so we take notes and have discussions (both generating/processing data!) before further decisions are made.
-
-With this in mind, in some sense, one could even think of an organization as a computing system! (a.k.a Socio-technical system) I prefer to take this perspective and use it to reflect organizational practice back onto itself for the benefit all of workers involved with the organization's data work. 
-
-To betray the analogy for a moment, people aren't interchangeable cogs in a machine and I want to explore ways that research & technology can enhance quality-of-life at work and not deskill, surveil, and classify peoples. 
+**Organizations work because people do!** When people come together to accomplish a common goal, there's very little that can't be done.
 
 The core aim of my work is to extend the ability of tech and research to amplify the abilities of humanitarian workers, rather than impede them.
 
@@ -43,6 +41,8 @@ Hook, professional intro
 -->
 
 ## Let's Get in Touch!
+**Looking for a data science collaborator! (All skill levels welcome)**
+
 Have any questions or comments? Would you like to collaborate or discuss data work some time? Please reach out! I will do my best to get back to you as soon as I can.
 
 **Email:** marisol.yake(at)outlook.com

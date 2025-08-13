@@ -1,0 +1,46 @@
+---
+title: "Estimating The Financial Impact Of NEH and IMLS Grants Cancellations for Colorado Museums"
+format: html
+draft: true
+---
+[*Write a snappy intro, thanks*]
+
+In this post, we will be using a data science technique to get a feel for the financial impacts of the politically-charged targeting of federal grants for public, cultural institutions. Specifically, we will be estimating the impacts of these grant cancellations on Colorado Museums.
+
+```{python}
+#import pandas as pd
+#import matplotlib.pyplot as plt
+#import seaborn as sns
+```
+
+```{python}
+# Load IMLS Grants data, CO only
+# Load NEH Grants data, CO only
+```
+
+```{python}
+# How many records in IMLS grants?
+# How many records in NEH grants?
+
+# Proportions?
+```
+
+```{python}
+# Bootstrap IMLS Grants - How many canceled?
+
+# Bootstrap NEH Grants - How many canceled?
+
+# Combine datasets
+```
+
+```{python}
+# IMLS Grants Histogram + KDE, red vline [org] estimate
+# NEH Grants Histogram + KDE, red vline ach estimate
+# layout: (2, 1)
+
+# Overall Impact Data Set
+```
+
+## References
+- [the association for computers and the humanities (ach), NEH Grants 2025](https://impact.ach.org/)
+- 

@@ -1,0 +1,22 @@
+---
+title: "Exploring the Facts of the US Federal Grant Cancellations"
+format: html
+draft: true
+---
+[*Now that the DOGE department has fallen off*], let's consider what is known about the federal grant cancellations targeting the National Endowment for the Humanities (NEH) and Institute of Museum and Library Services (IMLS), and other crucial cultural institutions. I won't claim to lay out a comprehensive view of the situation, especially as I'm a newcomer to the professional field of Museum work [*...*]
+
+<!--
+TODO: Find 10+ sources (categories?)
+TODO: 
+-->
+
+## Highlights
+
+## The Facts
+
+## Responses
+
+## Wrapping Up
+
+## References
+- [the association for computers and the humanities (ach), NEH Grants 2025](https://impact.ach.org/)

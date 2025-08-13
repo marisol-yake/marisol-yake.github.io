@@ -1,9 +1,7 @@
 [
   {
     "listing": "/blog-posts/index.html",
-    "items": [
-      "/blog-posts/hello-world.html"
-    ]
+    "items": []
   },
   {
     "listing": "/projects/index.html",
